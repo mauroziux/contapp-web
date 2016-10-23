@@ -17,7 +17,8 @@
                     <h2 class="h3 text-white-op push">Contapp es un software de punto de venta,
                       gestión de inventario, cuadre de caja, Informes y mucho más, que ayudará a
                       administrar fácilmente y hacer crecer su negocio.</h2>
-                    <button data-toggle="modal" data-target="#sign-up-form" class="btn btn-primary animated bounceIn btn-noborder btn-lg">
+                    <button data-toggle="modal" data-target="#sign-up-form"
+                     class="btn btn-primary animated font-s26 bounceIn  btn-lg">
                         Pruébalo ahora Gratis
                     </button>
                 </div>
@@ -50,6 +51,59 @@
                 </section>
 
         </div>
+        <div class="bg-primary-darker">
+            <section class="content content-full content-boxed overflow-hidden flex" >
+
+          <div class="col-sm-7" >
+            <div class="" style="display: inline;">
+      <div class="relative" style="position:relative">
+        <svg class="db w-100" viewBox="500 6340 996 710" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M.217.775h614.65V819.74H.217z"></path></defs><g fill="none" fill-rule="evenodd" transform="rotate(90 -2422.5 3917.5)"><rect fill="#D1D5DA" x="10" width="699.481" height="993.316" rx="36.8"></rect><rect fill="#EBEDEF" width="699.481" height="993.316" rx="36.8"></rect><ellipse cx="6.403" cy="6.704" rx="6.002" ry="5.998" transform="translate(343.338 39.59)" fill="#FFF" opacity=".4"></ellipse><ellipse fill="#D1D5DA" cx="349.741" cy="952.128" rx="24.01" ry="23.993"></ellipse><use fill="#6D8199" xlink:href="#a" transform="translate(43 88)"></use></g></svg>
+        <div class="absolute overflow-hidden" style="left: 8.742632612967%; right: 9.037328094303%; top: 6.068965517241%; bottom: 7.172413793103%;">
+          <video width="100%" height="100%" autoplay="" loop="" muted="">
+            <source src="{{url('assets/video/ventas.mp4')}}" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+          </div>
+          <div class="col-sm-5 padding-30 v-center ">
+<h2 class="h1 font-s36 text-center text-white push">El sistema POS perfecto para ti</h2>
+<p class="text-white-op font-s16">Imagina poder atender a tu cliente desde tu tablet, responder sus preguntas y asesorarlo de manera inmediata,
+   además poder facturar y todo de una manera mas personalizada.</p>
+   <p class="text-white-op font-s16">
+     <b>Contapp</b> hace que vender sea más facil a sus clientes,  <em>descarga de su inventario</em>,
+     <em>organiza su caja</em>, <em>alimenta todos los reportes,</em> todo esto de manera inmediata desde su PC, Tablet o celular.
+   </p>
+   <div class="text-center">
+     <button class="btn btn-primary btn-lg" name="button">Ver Características de POS</button>
+   </div>
+
+          </div>
+            </section>
+          </div>
+          <div class="bg-radial-gradient-blue">
+                <section class="content content-full content-boxed overflow-hidden flex" >
+                  <div class="col-sm-6 padding-30 v-center">
+                    <h2 class="h1 font-s36 text-center text-white">Multiusuario y Multitienda</h2>
+                    <h3 class="text-center text-white-op push">Trabaja con tu equipo</h3>
+                    <p class="text-white-op font-s16">Gestiona todo tu equipo de trabajo, vendedores, auxiliar de bodega,
+                       puedes dar acceso a tu contador, siempre verás lo que hacen, .</p>
+                       <p class="text-white-op font-s16">
+                         ¿Preparado para crecer? <b>Con el sistemas POS Contapp</b> podras gestionar todas tus tiendas a la
+                         perfección, saber que sucede en cada tienda por separado y saber cual es la mas rentable.
+                          todos tus datos estan centralizados, precios, productos, niveles de Stock, sin dolores de cabeza.
+                       </p>
+                       <div class="text-center">
+                         <button class="btn btn-primary btn-lg" name="button">Ver más características</button>
+                       </div>
+                  </div>
+
+                  <div class="col-sm-6 v-center">
+<img class="img-responsive" src="{{url('assets/img/team.png')}}" alt="" />
+                  </div>
+
+                  </section>
+          </div>
         <div>
           <section class="contactenos">
             <div class="col-sm-4 padding-30">
