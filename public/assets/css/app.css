@@ -27,12 +27,23 @@
 .padding-30{
   padding: 30px !important;
 }
+.padding-50{
+  padding: 50px !important;
+}
+.padding-80{
+  padding: 80px !important;
+}
 .btn-primary{
 
 }
 .btn-green{
 background-color: #0e596c !important;
 color: #f5f5f5 !important;
+}
+
+.bg-green{
+  background-color: #1e9c99 !important;
+  color: #f5f5f5 !important;
 }
 
 
