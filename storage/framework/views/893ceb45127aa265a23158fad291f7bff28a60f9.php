@@ -3,7 +3,7 @@
         <!-- Footer Navigation -->
         <div class="row padding-30">
           <div class="col-sm-4 text-center">
-              <img alt="logo-contapp" src="{{ url('assets/img/logo.png')}}" height="57" width="156">
+              <img alt="logo-contapp" src="<?php echo e(url('assets/img/logo.png')); ?>" height="57" width="156">
               <div class="font-s14 padding-30 text-justify text-white-op">
                   <p>Somos una novedosa herramienta web que te permite conocer la
                     rentabilidad de tu negocio, administrar múltiples almacenes
@@ -66,7 +66,7 @@
                   </span>
               </a>
               <h3 class="h4 font-w600 text-white-op text-center text-uppercase push-20-t push-20">Quienes nos apoyan</h3>
-<img class="img-responsive" src="{{ url('assets/img/apoyo.png')}}">
+<img class="img-responsive" src="<?php echo e(url('assets/img/apoyo.png')); ?>">
               </div>
 
         </div>

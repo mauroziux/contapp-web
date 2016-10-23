@@ -6,8 +6,8 @@
             <div class="col-md-4 text-center push">
                 <ul class="nav-header tc">
                     <li class="header-content">
-                        <a href="{{url('/')}}">
-                            <img class="img-responsive" src="{{ url('assets/img/logo.png') }}" alt="contapp sistema pos" width="156" height="57">
+                        <a href="<?php echo e(url('/')); ?>">
+                            <img class="img-responsive" src="<?php echo e(url('assets/img/logo.png')); ?>" alt="contapp sistema pos" width="156" height="57">
                         </a>
                     </li>
                 </ul>
@@ -43,42 +43,50 @@
                   <h4 class="h1 font-w600 text-center text-white">Tus 30 Días GRATIS</h4>
                   <h4 class="h3 font-w500 text-center text-white">¡Consiguelo Ahora!</h4>
                   <div class="push-20-t">
-                      {!! Form::open(['url' => 'foo/bar','class'=>'form-horizontal']) !!}
+                      <?php echo Form::open(['url' => 'foo/bar','class'=>'form-horizontal']); ?>
+
                       <div class="form-group">
                         <div class="col-md-12">
-                          {!! Form::text('name', null,['class'=>'form-control font-s20 input-lg','placeholder'=>'Ingrese su Nombre']) !!}
+                          <?php echo Form::text('name', null,['class'=>'form-control font-s20 input-lg','placeholder'=>'Ingrese su Nombre']); ?>
+
                         </div>
                       </div>
                       <div class="form-group">
                         <div class="col-md-12">
-                          {!! Form::email('email', null,['class'=>'form-control font-s20 input-lg',
-                            'placeholder'=>'Ingrese su correo electrónico']) !!}
+                          <?php echo Form::email('email', null,['class'=>'form-control font-s20 input-lg',
+                            'placeholder'=>'Ingrese su correo electrónico']); ?>
+
                         </div>
                       </div>
                       <div class="form-group">
                         <div class="col-md-12">
-                          {!! Form::text('telefono', null,['class'=>'form-control font-s20 input-lg',
-                            'placeholder'=>'Ingrese su número telefónico']) !!}
+                          <?php echo Form::text('telefono', null,['class'=>'form-control font-s20 input-lg',
+                            'placeholder'=>'Ingrese su número telefónico']); ?>
+
                         </div>
                       </div>
                       <div class="form-group">
                         <div class="col-md-12">
-                          {!! Form::text('empresa', null,['class'=>'form-control font-s20 input-lg',
-                            'placeholder'=>'Nombre de su empresa']) !!}
+                          <?php echo Form::text('empresa', null,['class'=>'form-control font-s20 input-lg',
+                            'placeholder'=>'Nombre de su empresa']); ?>
+
                         </div>
                       </div>
                       <div class="form-group">
                         <div class="col-md-12">
-                          {!! Form::text('ciudad', null,['class'=>'form-control font-s20 input-lg',
-                            'placeholder'=>'Ciudad de ubicación']) !!}
+                          <?php echo Form::text('ciudad', null,['class'=>'form-control font-s20 input-lg',
+                            'placeholder'=>'Ciudad de ubicación']); ?>
+
                         </div>
                       </div>
                       <div class="form-group">
                         <div class="col-md-12">
-                          {!! Form::submit('Empieza ahora', ['class'=>'btn btn-block btn-green btn-lg font-s20']) !!}
+                          <?php echo Form::submit('Empieza ahora', ['class'=>'btn btn-block btn-green btn-lg font-s20']); ?>
+
                         </div>
                       </div>
-                      {!! Form::close() !!}
+                      <?php echo Form::close(); ?>
+
                   </div>
                 </div>
             </div>

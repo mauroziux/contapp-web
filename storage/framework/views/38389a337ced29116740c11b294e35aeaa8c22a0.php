@@ -38,7 +38,7 @@
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.9s infinite;
 }
-@keyframes blink{
+@keyframes  blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
@@ -66,11 +66,11 @@
 
 <!-- Icons -->
 <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ url('favicons/apple-touch-icon.png') }}">
-<link rel="icon" type="image/png" href="{{ url('favicons/favicon-32x32.png" sizes="32x32') }}">
-<link rel="icon" type="image/png" href="{{ url('favicons/favicon-16x16.png" sizes="16x16') }}">
-<link rel="manifest" href="{{ url('favicons/manifest.json') }}">
-<link rel="mask-icon" href="{{ url('favicons/safari-pinned-tab.svg" color="#247b87') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo e(url('favicons/apple-touch-icon.png')); ?>">
+<link rel="icon" type="image/png" href="<?php echo e(url('favicons/favicon-32x32.png" sizes="32x32')); ?>">
+<link rel="icon" type="image/png" href="<?php echo e(url('favicons/favicon-16x16.png" sizes="16x16')); ?>">
+<link rel="manifest" href="<?php echo e(url('favicons/manifest.json')); ?>">
+<link rel="mask-icon" href="<?php echo e(url('favicons/safari-pinned-tab.svg" color="#247b87')); ?>">
 <meta name="apple-mobile-web-app-title" content="contapp">
 <meta name="application-name" content="contapp">
 <meta name="theme-color" content="#16586c">
