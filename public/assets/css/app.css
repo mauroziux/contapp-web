@@ -1,0 +1,52 @@
+.font-s20{
+    font-size: 20px;
+}
+.font-s18{
+    font-size: 18px;
+}
+.font-s16{
+    font-size: 16px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.o-75 {
+    opacity: .75;
+}
+
+.portada{
+    margin: 150px 70px 70px 70px !important;
+}
+.portada .h1{
+    line-height: 50px;
+    letter-spacing: -1px;
+}
+
+.btn-primary{
+    
+}
+
+@media (max-width: 768px) {
+   .tc{
+       display: inline-block !important;
+       text-align: center;
+       font-size: .8em;
+   }
+    .h1{
+        font-size: 38px !important;
+        letter-spacing: -1px;
+    }
+    .portada{
+        margin: 150px 30px 50px 30px !important;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .content.content-boxed {
+        max-width: 2500px !important;
+    }
+    
+}
+    
