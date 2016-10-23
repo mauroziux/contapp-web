@@ -99,7 +99,7 @@
                   </div>
 
                   <div class="col-sm-6 v-center">
-<img class="img-responsive" src="{{url('assets/img/team.png')}}" alt="" />
+<img class="img-responsive" src="{{url('assets/img/team.png')}}" alt="sistemas pos multiusuario y multitienda" />
                   </div>
 
                   </section>
