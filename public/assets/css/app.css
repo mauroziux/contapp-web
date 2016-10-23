@@ -56,19 +56,81 @@ color: #f5f5f5 !important;
   border-radius: .25rem;
 }
 .flex{
-  display: flex ;
+  display: flex;
 }
 
 .flex .v-center{
   align-self: center !important;
 }
 
-element.style {
-    left: 8.742632612967%;
-    right: 9.037328094303%;
-    top: 6.068965517241%;
-    bottom: 7.172413793103%;
+.tabbed-carousel__nav{
+  position: relative;
+z-index: 3;
+height: 100px;
+border: 1px solid #e5e5e5;
+border-radius: 3px;
 }
+
+.tabbed-carousel__nav-item {
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    display: inline-block;
+    height: 98px;
+        width: 25%;
+    float: left;
+    padding-top: 15px;
+    background-color: #f9fafa;
+    color: #1e9c99 !important;
+    text-align: center;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+.tabbed-carousel__nav-item.active, .tabbed-carousel__nav-item:hover {
+    color: #0e596c !important;
+}
+.tabbed-carousel__nav-item:first-child {
+    padding-left: 0;
+}
+.tabbed-carousel__nav-item .icon{
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.tabbed-carousel__nav-item:first-child:before, .tabbed-carousel__nav-item:first-child:after {
+    display: none;
+}
+.tabbed-carousel__nav-item:after {
+    left: -1px !important;
+    border-left-color: #f9fafa !important;
+}
+
+
+.tabbed-carousel__nav-item:before, .tabbed-carousel__nav-item:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 49px solid transparent;
+    border-left-width: 24px;
+    border-left-style: solid;
+    border-left: 24px solid #e5e5e5;
+    border-bottom: 49px solid transparent;
+    -webkit-transition: border-color 300ms ease;
+    transition: border-color 300ms ease;
+}
+
+
 .absolute {
     position: absolute;
 }
@@ -118,7 +180,7 @@ element.style {
         height: 120px !important;
     }
     .flex{
-      display: block; !important;
+      display: block !important;
     }
 }
 
