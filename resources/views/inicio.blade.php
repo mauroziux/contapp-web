@@ -277,7 +277,7 @@
                               {!! Form::close() !!}
                             </div>
                             <div class="col-sm-4 padding-30">
-                              <img class="img-responsive" src="https://static.contapp.com.co/contapp-web/mapa.png" alt="sistema pos colombia" />
+                              <img class="img-responsive" height="173" width="281"  src="https://static.contapp.com.co/contapp-web/mapa.png" alt="sistema pos colombia" />
                             </div>
                           </section>
                         </div>

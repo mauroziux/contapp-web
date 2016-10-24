@@ -60,6 +60,25 @@
     height: 80px !important;
 }
 
+.header-navbar-transparent #header-navbar {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.header-navbar-fixed #header-navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    min-width: 320px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
 
 </style>
 
@@ -80,17 +99,20 @@
 
 
 <!-- Stylesheets -->
-<!-- Web fonts -->
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
 
 <!-- Page JS Plugins CSS go here -->
 
 <!-- Bootstrap and OneUI CSS framework -->
+
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/oneui.min.css">
 <link rel="stylesheet" href="assets/css/app.css">
 
 <!-- END Stylesheets -->
+<!-- Web fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
 
 
 <!-- jquery -->

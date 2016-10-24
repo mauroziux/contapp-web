@@ -66,7 +66,7 @@
                   </span>
               </a>
               <h3 class="h4 font-w600 text-white-op text-center text-uppercase push-20-t push-20">Quienes nos apoyan</h3>
-<img class="img-responsive" src="https://static.contapp.com.co/contapp-web/apoyo.png">
+<img class="img-responsive" height="53" width="301" src="https://static.contapp.com.co/contapp-web/apoyo.png">
               </div>
 
         </div>
@@ -78,5 +78,55 @@
         <p>Creado con <i class="fa fa-heart text-city"></i> en Colombia</p>
       </div>
       <!-- END Copyright Info -->
+    </div>
+    <div id="sign-up-form" class="modal in formulario">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="block">
+                    <div class="block-content padding-30  bg-green-light">
+                      <h4 class="h1 font-w600 text-center text-white">Tus 30 Días GRATIS</h4>
+                      <h4 class="h3 font-w500 text-center text-white">¡Consiguelo Ahora!</h4>
+                      <div class="push-20-t">
+                          {!! Form::open(['url' => 'foo/bar','class'=>'form-horizontal']) !!}
+                          <div class="form-group">
+                            <div class="col-md-12">
+                              {!! Form::text('name', null,['class'=>'form-control font-s20 input-lg','placeholder'=>'Ingrese su Nombre']) !!}
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-md-12">
+                              {!! Form::email('email', null,['class'=>'form-control font-s20 input-lg',
+                                'placeholder'=>'Ingrese su correo electrónico']) !!}
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-md-12">
+                              {!! Form::text('telefono', null,['class'=>'form-control font-s20 input-lg',
+                                'placeholder'=>'Ingrese su número telefónico']) !!}
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-md-12">
+                              {!! Form::text('empresa', null,['class'=>'form-control font-s20 input-lg',
+                                'placeholder'=>'Nombre de su empresa']) !!}
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-md-12">
+                              {!! Form::text('ciudad', null,['class'=>'form-control font-s20 input-lg',
+                                'placeholder'=>'Ciudad de ubicación']) !!}
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-md-12">
+                              {!! Form::submit('Empieza ahora', ['class'=>'btn btn-block btn-green btn-lg font-s20']) !!}
+                            </div>
+                          </div>
+                          {!! Form::close() !!}
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
