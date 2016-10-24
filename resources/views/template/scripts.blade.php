@@ -1,7 +1,6 @@
 <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
 <script src="assets/js/oneui.min.js"></script>
 <script src="assets/js/typed.min.js"></script>
-<script src="assets/js/gmaps.min.js"></script>
 <script>
   $(function(){
       $(".element").typed({
