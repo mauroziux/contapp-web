@@ -141,7 +141,7 @@ body{
 <!-- Bootstrap and OneUI CSS framework -->
 
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/oneui.min.css" media="none" onload="if(media!='all')media='all'">
+<link rel="stylesheet" href="assets/css/oneui.min.css">
 <link rel="stylesheet" href="assets/css/app.css" media="none" onload="if(media!='all')media='all'">
 
 
