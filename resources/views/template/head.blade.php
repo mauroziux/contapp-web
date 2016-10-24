@@ -39,6 +39,9 @@ body{
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+.header-navbar-transparent.header-navbar-fixed #main-container {
+    padding-top: 0;
+}
 
 .header-navbar-fixed #header-navbar {
   position: fixed;
@@ -68,6 +71,17 @@ body{
 }
 .col-md-4 {
     width: 33.33333333%;
+}
+
+.col-md-4,.col-md-8{
+  float: left;
+  position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+}
+.text-center {
+    text-align: center;
 }
 .nav-header .header-content {
     line-height: 34px;
@@ -139,12 +153,9 @@ body{
 <link rel="dns-prefetch" href="//static.contapp.com.co">
 
 <!-- Bootstrap and OneUI CSS framework -->
-
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/oneui.min.css">
-<link rel="stylesheet" href="assets/css/app.css" media="none" onload="if(media!='all')media='all'">
-
-
+<link rel="stylesheet" href="assets/css/app.css" media="all" onload="if(media!='all')media='all'">
 <!-- END Stylesheets -->
 <!-- Web fonts -->
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700" media="none" onload="if(media!='all')media='all'">
