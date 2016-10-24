@@ -151,6 +151,8 @@ padding-left: 15px;
 <!-- Page JS Plugins CSS go here -->
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//static.contapp.com.co">
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+
 
 <!-- Bootstrap and OneUI CSS framework -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">

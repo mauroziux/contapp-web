@@ -1,6 +1,6 @@
 <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
-<script src="assets/js/oneui.min.js"></script>
-<script  src="assets/js/typed.min.js"></script>
+<script src="assets/js/oneui.min.js" media="none" onload="if(media!='all')media='all'"></script>
+<script  src="assets/js/typed.min.js" media="none" onload="if(media!='all')media='all'"></script>
 <script>
   $(function(){
       $(".element").typed({
