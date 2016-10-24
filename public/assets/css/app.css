@@ -157,6 +157,9 @@ border-radius: 3px;
     .portada{
         margin: 150px 30px 50px 30px !important;
     }
+    .font-s36{
+        font-size: 30px !important;
+    }
     .font-s26{
         font-size: 20px !important;
     }
@@ -182,6 +185,8 @@ border-radius: 3px;
     .flex{
       display: block !important;
     }
+
+
 }
 
 @media screen and (min-width: 768px){
@@ -192,4 +197,10 @@ border-radius: 3px;
         width: 500px !important;
     }
 
+}
+
+@media (max-width: 760px){
+.tab-pane .img-responsive{
+  padding-left: 100px !important;
+}
 }

@@ -1,5 +1,5 @@
 <footer id="page-footer" class="bg-grey">
-    <div class="content content-boxed">
+    <div class="content-boxed">
         <!-- Footer Navigation -->
         <div class="row padding-30">
           <div class="col-sm-4 text-center">
