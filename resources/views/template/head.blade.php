@@ -104,10 +104,10 @@
 <!-- Page JS Plugins CSS go here -->
 
 <!-- Bootstrap and OneUI CSS framework -->
-
+<link rel="stylesheet" href="assets/css/app.css">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/oneui.min.css">
-<link rel="stylesheet" href="assets/css/app.css">
+
 
 <!-- END Stylesheets -->
 <!-- Web fonts -->

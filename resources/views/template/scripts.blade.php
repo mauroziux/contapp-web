@@ -1,6 +1,6 @@
 <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
 <script src="assets/js/oneui.min.js"></script>
-<script src="assets/js/typed.min.js"></script>
+<script  src="assets/js/typed.min.js"></script>
 <script>
   $(function(){
       $(".element").typed({
@@ -50,17 +50,6 @@ function checkAnimation() {
     }
 }
 
-  url = GMaps.staticMapURL({
-    size: [300, 200],
-    lat: -12.043333,
-    lng: -77.028333,
-    markers: [
-      {lat: -12.043333, lng: -77.028333}
-    ]
-  });
-
-  $('<img/>').attr('src', url)
-    .appendTo('#mapa');
 </script>
 
 <!-- Page JS Plugins + Page JS Code -->
