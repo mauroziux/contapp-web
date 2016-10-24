@@ -102,10 +102,12 @@
 
 
 <!-- Page JS Plugins CSS go here -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//static.contapp.com.co"> 
 
 <!-- Bootstrap and OneUI CSS framework -->
-<link rel="preload" href="assets/css/app.css" as="style">
-<link rel="preload" href="assets/css/bootstrap.min.css" as="style">
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/oneui.min.css">
 
 
