@@ -7,7 +7,7 @@
                 <ul class="nav-header tc">
                     <li class="header-content">
                         <a href="{{url('/')}}">
-                            <img class="img-responsive" src="{{ url('assets/img/logo.png') }}" alt="contapp sistema pos" width="156" height="57">
+                            <img class="img-responsive" src="https://static.contapp.com.co/contapp-web/logo.png" alt="contapp sistema pos" width="156" height="57">
                         </a>
                     </li>
                 </ul>

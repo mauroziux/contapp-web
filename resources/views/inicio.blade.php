@@ -23,7 +23,7 @@
             </button>
           </div>
           <div class="row animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp">
-            <img src="{{ url('assets/img/portada.png') }}" width="100%" alt="software pos colombia" class="">
+            <img src="https://static.contapp.com.co/contapp-web/portada.png" width="100%" alt="software pos colombia" class="">
           </div>
           <!-- END Section Content -->
         </section>
@@ -63,7 +63,7 @@
                         <svg class="db w-100" viewBox="500 6340 996 710" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M.217.775h614.65V819.74H.217z"></path></defs><g fill="none" fill-rule="evenodd" transform="rotate(90 -2422.5 3917.5)"><rect fill="#D1D5DA" x="10" width="699.481" height="993.316" rx="36.8"></rect><rect fill="#EBEDEF" width="699.481" height="993.316" rx="36.8"></rect><ellipse cx="6.403" cy="6.704" rx="6.002" ry="5.998" transform="translate(343.338 39.59)" fill="#FFF" opacity=".4"></ellipse><ellipse fill="#D1D5DA" cx="349.741" cy="952.128" rx="24.01" ry="23.993"></ellipse><use fill="#6D8199" xlink:href="#a" transform="translate(43 88)"></use></g></svg>
                         <div class="absolute overflow-hidden" style="left: 8.742632612967%; right: 9.037328094303%; top: 6.068965517241%; bottom: 7.172413793103%;">
                           <video width="100%" height="100%" autoplay="" loop="" muted="">
-                            <source src="{{url('assets/video/ventas.mp4')}}" type="video/mp4">
+                            <source src="https://static.contapp.com.co/contapp-web/ventas.mp4" type="video/mp4">
                             </video>
                           </div>
                         </div>
@@ -124,7 +124,7 @@
                               </div>
                             </div>
                             <div class="col-sm-6 text-right">
-                              <img class="img-responsive animated bounceInRight"  src="{{url('assets/img/ventas.png')}}" alt="sistema punto de venta" />
+                              <img class="img-responsive animated bounceInRight"  src="https://static.contapp.com.co/contapp-web/ventas.png" alt="sistema punto de venta" />
                             </div>
                           </div>
                           <div class="tab-pane" id="gestionar">
@@ -144,7 +144,7 @@
                               </div>
                             </div>
                             <div class="col-sm-6">
-                              <img  class="img-responsive animated bounceInRight" src="{{url('assets/img/clientes.png')}}" alt="sistema punto de venta" />
+                              <img  class="img-responsive animated bounceInRight" src="https://static.contapp.com.co/contapp-web/clientes.png" alt="sistema punto de venta" />
                             </div>
                           </div>
                           <div class="tab-pane" id="informes">
@@ -164,7 +164,7 @@
                               </div>
                             </div>
                             <div class="col-sm-6 ">
-                              <img class="img-responsive animated bounceInRight" src="{{url('assets/img/graficas.png')}}" alt="sistema punto de venta" />
+                              <img class="img-responsive animated bounceInRight" src="https://static.contapp.com.co/contapp-web/graficas.png" alt="sistema punto de venta" />
                             </div>
                           </div>
                           <div class="tab-pane" id="crecer">
@@ -184,7 +184,7 @@
                               </div>
                             </div>
                             <div class="col-sm-6 ">
-                              <img class="img-responsive animated bounceInRight" src="{{url('assets/img/crecer.png')}}" alt="sistema punto de venta" />
+                              <img class="img-responsive animated bounceInRight" src="https://static.contapp.com.co/contapp-web/crecer.png" alt="sistema punto de venta" />
                             </div>
                           </div>
                         </div>
@@ -211,7 +211,7 @@
                           </div>
                         </div>
                         <div class="col-sm-6 v-center multiusuarios-img ">
-                          <img class="img-responsive" src="{{url('assets/img/team.png')}}" alt="sistemas pos multiusuario y multitienda" />
+                          <img class="img-responsive" src="https://static.contapp.com.co/contapp-web/team.png" alt="sistemas pos multiusuario y multitienda" />
                         </div>
                       </section>
                     </div>
@@ -222,7 +222,7 @@
                         <div class="row push">
                           <div class="col-sm-4 text-center">
                             <img class="" width="88" height="100"
-                            src="{{url('assets/img/correo.png')}}" alt="software
+                            src="https://static.contapp.com.co/contapp-web/correo.png" alt="software
                             administrativo" /> </div>
                             <div class="col-sm-8 text-center">
                               <p
@@ -232,7 +232,8 @@
                           </div>
                           <div class="row push">
                             <div class="col-sm-4 text-center">
-                              <img class="" width="88" height="100" src="{{url('assets/img/telefono.png')}}" alt="software administrativo" />
+                              <img class="" width="88" height="100"
+                              src="https://static.contapp.com.co/contapp-web/telefono.png" alt="software administrativo" />
                             </div>
                             <div class="col-sm-8 text-center">
                               <p class="h3 font-w600 push-15-t">¿Telefonos?</p>
@@ -241,7 +242,8 @@
                           </div>
                           <div class="row push">
                             <div class="col-sm-4 text-center">
-                              <img class="" width="88" height="100" src="{{url('assets/img/lugar.png')}}" alt="software administrativo" />
+                              <img class="" width="88" height="100"
+                              src="https://static.contapp.com.co/contapp-web/lugar.png" alt="software administrativo" />
                             </div>
                             <div class="col-sm-8 text-center">
                               <p class="h3 font-w600">¿Quieres visitarnos?</p>
@@ -275,12 +277,9 @@
                               {!! Form::close() !!}
                             </div>
                             <div class="col-sm-4 padding-30">
-
-                              <img class="img-responsive" src="{{url('assets/img/mapa.png')}}" alt="sistema pos colombia" />
-
+                              <img class="img-responsive" src="https://static.contapp.com.co/contapp-web/mapa.png" alt="sistema pos colombia" />
                             </div>
                           </section>
-
                         </div>
                       </main>
                     @stop
