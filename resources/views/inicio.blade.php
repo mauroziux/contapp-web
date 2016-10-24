@@ -3,7 +3,7 @@
 @section('meta')
   <title>Contapp: Software Punto de Venta POS - Sistema Administrativo</title>
   <meta name="description"
-  content="Lleva tu empresa a otro nivel con Contapp el mejor Software de Punto de Venta POS con el que podrás administrar tu negocio desde la nube.">
+  content="Lleva tu empresa a otro nivel con Contapp el mejor Software de Punto de Venta y sistema POS con el que podrás administrar tu negocio desde la nube.">
 @stop
 
 @section('contenido')
