@@ -5,84 +5,117 @@
 <meta name="robots" content="index, follow">
 <meta name="keywords" content="sistema pos, software pos, software punto de venta, sistema punto de venta, sistema administrativo">
 <style>
-    html, body {
-        height: 100%;
-        margin: 0;
-    }
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
-    body{
-        font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 14px;
-        color: #f5f5f5;
-        background-color: #f5f5f5;
-    }
-    #header-navbar{
-        height: 90px;
-        padding-top: 2rem;
-    }
-    .bg-radial-gradient-blue {
-        background-image: -webkit-radial-gradient(circle closest-corner at 50% 70%, #37b99b, #0e596c 99%);
-        background-image: radial-gradient(circle closest-corner at 50% 70%, #37b99b, #0e596c 99%);
-    }
+body{
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #f5f5f5;
+  background-color: #f5f5f5;
+}
 
-    .portada{
-        margin: 150px 230px 50px 230px !important;
-    }
-    .portada .h1{
-        line-height: 60px;
-        letter-spacing: -1px;
-    }
-    .typed-cursor{
-    opacity: .6;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.9s infinite;
+#page-container {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+  background-color: #2c343f;
 }
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+#header-navbar{
+  height: 90px;
+  padding-top: 2rem;
 }
 
 .header-navbar-transparent.header-navbar-fixed.header-navbar-scroll #header-navbar {
-    background-color: #0e596c !important;
-    padding-top: 1rem !important;
-    height: 80px !important;
+  background-color: #0e596c !important;
+  padding-top: 1rem !important;
+  height: 80px !important;
 }
 
 .header-navbar-transparent #header-navbar {
-    background-color: transparent;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .header-navbar-fixed #header-navbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    min-width: 320px;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.02);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  min-width: 320px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+.content-boxed {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.nav-header {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.col-md-4 {
+    width: 33.33333333%;
+}
+.nav-header .header-content {
+    line-height: 34px;
 }
 
+.nav-header>li {
+    margin-right: 12px;
+    float: left;
+}
+.tc {
+  display: inline-block !important;
+  text-align: right;
+}
+.bg-radial-gradient-blue {
+  background-image: -webkit-radial-gradient(circle closest-corner at 50% 70%, #37b99b, #0e596c 99%);
+  background-image: radial-gradient(circle closest-corner at 50% 70%, #37b99b, #0e596c 99%);
+}
+
+.portada{
+  margin: 150px 230px 50px 230px !important;
+}
+.portada .h1{
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+.typed-cursor{
+  opacity: .6;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.9s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
 
 </style>
-
-
 
 <!-- Icons -->
 <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
@@ -103,12 +136,13 @@
 
 <!-- Page JS Plugins CSS go here -->
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="dns-prefetch" href="//static.contapp.com.co"> 
+<link rel="dns-prefetch" href="//static.contapp.com.co">
 
 <!-- Bootstrap and OneUI CSS framework -->
-<link rel="stylesheet" href="assets/css/app.css">
+
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/oneui.min.css">
+<link rel="stylesheet" href="assets/css/oneui.min.css" media="none" onload="if(media!='all')media='all'">
+<link rel="stylesheet" href="assets/css/app.css" media="none" onload="if(media!='all')media='all'">
 
 
 <!-- END Stylesheets -->
