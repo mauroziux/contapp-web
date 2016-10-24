@@ -66,7 +66,7 @@
                   </span>
               </a>
               <h3 class="h4 font-w600 text-white-op text-center text-uppercase push-20-t push-20">Quienes nos apoyan</h3>
-<img class="img-responsive" src="{{ url('assets/img/apoyo.png')}}">
+<img class="img-responsive" src="https://static.contapp.com.co/contapp-web/apoyo.png">
               </div>
 
         </div>

@@ -34,17 +34,17 @@
             <h2 class="h1 font-s36 text-center font-w600 text-white">Toma el control de tu negocio con un <br> Sistema POS Online </h2>
             <div class="content-boxed">
               <div class="col-sm-4 text-center">
-                <img src="{{url('assets/img/benefit-time.svg')}}" alt="ahorra tiempo con el sistema pos" />
+                <img src="https://static.contapp.com.co/contapp-web/benefit-time.svg" alt="ahorra tiempo con el sistema pos" />
                 <p class="text-white font-s16">Ahorra tiempo automatizando cada uno de tus procesos de <b>facturación</b>,
                   ten el control de tu empresa en tiempo real y desde cualquier lugar y dedicate a hacer lo que más te gusta</p>
                 </div>
                 <div class="col-sm-4 text-center">
-                  <img src="{{url('assets/img/benefit-cost.svg')}}" alt="sistema pos mas economico" />
+                  <img src="https://static.contapp.com.co/contapp-web/benefit-cost.svg" alt="sistema pos mas economico" />
                   <p class="text-white font-s16">Ahorra Dinero, optimiza tus niveles de inventario, no mas perdidas de dinero en Caja,
                     regula tus gastos y más,  y sin invertir en costosas licencias, ni en servidores. </p>
                   </div>
                   <div class="col-sm-4 text-center">
-                    <img src="{{url('assets/img/benefit-happiness.svg')}}" alt="software POS para tiendas" />
+                    <img src="https://static.contapp.com.co/contapp-web/benefit-happiness.svg" alt="software POS para tiendas" />
                     <p class="text-white font-s16">Si tu empresa mejora, aumenta sus ventas, ahorras dinero y tiempo y es mas rentable,
                       tu tambien te pondrás feliz, Dedícate a hacer crecer tu negocio</p>
                     </div>
