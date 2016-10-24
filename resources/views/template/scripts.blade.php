@@ -2,7 +2,7 @@
 <script src="assets/js/oneui.min.js"></script>
 <script  src="assets/js/typed.min.js" media="none" onload="if(media!='all')media='all'"></script>
 <script>
-$( document ).ready(function() {
+
   $(function(){
       $(".element").typed({
         strings: ["mejorar tu negocio.","ahorrar tiempo y dinero", "ser mas rentable.","ser mas productivo."],
@@ -50,7 +50,7 @@ function checkAnimation() {
         $elem.removeClass('animated bounceInRight');
     }
 }
-});
+
 
 
 </script>
