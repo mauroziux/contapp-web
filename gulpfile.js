@@ -17,7 +17,7 @@ const elixir = require('laravel-elixir');
 
 elixir(mix => {
 mix.styles(['bootstrap.min.css','oneui.min.css','app.css'],'public/assets/css/all.min.css')
-.scripts(['oneui.min.js','typed.min.js'],'public/assets/js/all.min.js')
+.scripts(['oneui.min.js','typed.min.js','app.js'],'public/assets/js/all.min.js')
 
 });
 
