@@ -1,27 +1,29 @@
 <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
+
 <script src="assets/js/oneui.min.js"></script>
 <script src="assets/js/typed.min.js"></script>
-<script>
-
+<script type="text/javascript">
+$(window).load(function(){
+  //añadimos más scripts
   $(function(){
-      $(".element").typed({
-        strings: ["mejorar tu negocio.","ahorrar tiempo y dinero", "ser mas rentable.","ser mas productivo."],
-        typeSpeed: 50,
-        // time before typing starts
-           startDelay: 200,
-           // backspacing speed
-           backSpeed: 10,
-            // either html or text
-            contentType: 'html',
-            // time before backspacing
-            backDelay: 2000,
-            // loop
-            loop: true,
-      });
+    $(".element").typed({
+      strings: ["mejorar tu negocio.","ahorrar tiempo y dinero", "ser mas rentable.","ser mas productivo."],
+      typeSpeed: 50,
+      // time before typing starts
+      startDelay: 200,
+      // backspacing speed
+      backSpeed: 10,
+      // either html or text
+      contentType: 'html',
+      // time before backspacing
+      backDelay: 2000,
+      // loop
+      loop: true,
+    });
   });
   // Capture scroll events
   $(window).scroll(function(){
-      checkAnimation();
+    checkAnimation();
   });
 
   function isElementInViewport(elem) {
@@ -37,19 +39,21 @@
     var elemBottom = elemTop + $elem.height();
 
     return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
-}
+  }
 
   // Check if it's time to start the animation.
-function checkAnimation() {
+  function checkAnimation() {
     var $elem = $('.multiusuarios-img');
 
     if (isElementInViewport($elem)) {
-        // Start the animation
-        $elem.addClass('animated bounceInRight');
+      // Start the animation
+      $elem.addClass('animated bounceInRight');
     } else {
-        $elem.removeClass('animated bounceInRight');
+      $elem.removeClass('animated bounceInRight');
     }
-}
+  }
+
+ });
 
 </script>
 
