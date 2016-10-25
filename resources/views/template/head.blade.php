@@ -88,16 +88,6 @@ de su empresa, facturacion online, control de stock y más.">
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
 
-<!-- Bootstrap and OneUI CSS framework -->
-<link rel="stylesheet" href="assets/css/bootstrap.min.css" media="none" onload="if(media!='all')media='all'">
-<link rel="stylesheet" href="assets/css/oneui.min.css" media="none" onload="if(media!='all')media='all'">
-<link rel="stylesheet" href="assets/css/app.css" media="none" onload="if(media!='all')media='all'">
-<!-- END Stylesheets -->
-<!-- Web fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700" media="none" onload="if(media!='all')media='all'">
-
-
-
 
 <!-- jquery -->
 
