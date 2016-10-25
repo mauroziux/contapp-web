@@ -2,8 +2,14 @@
 <script type="text/javascript">
 function downloadJSAtOnload() {
 var element = document.createElement("script");
+var link  = document.createElement('link');
 element.src = "assets/js/all.min.js";
+link.href = "assets/css/all.min.js";
+link.rel  = 'stylesheet';
+link.type = 'text/css';
+link.media = 'all';
 document.body.appendChild(element);
+document.body.appendChild(link);
 }
 if (window.addEventListener)
 window.addEventListener("load", downloadJSAtOnload, false);

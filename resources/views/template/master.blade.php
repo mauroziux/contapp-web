@@ -22,7 +22,7 @@
     </body>
 </html>
 <!-- Bootstrap and OneUI CSS framework -->
-<link rel="stylesheet" href="assets/css/all.min.css">
+
 
 <!-- END Stylesheets -->
 <!-- Web fonts -->
