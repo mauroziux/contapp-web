@@ -60,13 +60,7 @@ de su empresa, facturacion online, control de stock y más.">
 .portada .h1{
   line-height: 60px;
   letter-spacing: -1px;
-}
-
-
-</style>
-
-<!-- Icons -->
-<!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+}</style>
 <link rel="apple-touch-icon" sizes="180x180" href="{{ url('favicons/apple-touch-icon.png') }}">
 <link rel="icon" type="image/png" href="{{ url('favicons/favicon-32x32.png" sizes="32x32') }}">
 <link rel="icon" type="image/png" href="{{ url('favicons/favicon-16x16.png" sizes="16x16') }}">
@@ -75,20 +69,6 @@ de su empresa, facturacion online, control de stock y más.">
 <meta name="apple-mobile-web-app-title" content="contapp">
 <meta name="application-name" content="contapp">
 <meta name="theme-color" content="#16586c">
-<!--  http://realfavicongenerator.net/ -->
-<!-- END Icons -->
-
-
-<!-- Stylesheets -->
-
-
-<!-- Page JS Plugins CSS go here -->
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//static.contapp.com.co">
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
-
-
-
-<!-- jquery -->
-
-<!-- END jquery -->

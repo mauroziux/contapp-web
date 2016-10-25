@@ -104,7 +104,7 @@
                         </div>
                       </div>
                     </section>
-                    <section class="overflow-hidden" style="">
+                    <section class="overflow-hidden">
                       <div class="row">
                         <div class="block-content tab-content remove-padding">
                           <div class="tab-pane active" id="vender">
