@@ -4,12 +4,20 @@
 }
 
 .portada{
-  margin: 150px 230px 50px 230px;
+  margin: 150px 100px 50px;
 }
 
 .portada .h1{
   line-height: 60px;
   letter-spacing: -1px;
+}
+
+#header-navbar{
+    height: 75px;
+}
+
+.header-navbar-transparent.header-navbar-fixed.header-navbar-scroll #header-navbar {
+    background-color: #0e596c;
 }
 
 .font-s26{
@@ -201,15 +209,8 @@ border-radius: 3px;
     .font-s16{
         font-size: 12px !important;
     }
-    #header-navbar{
-        height: 130px;
-        padding-top: 2rem;
-    }
     .padding-30{
       padding: 10px !important;
-    }
-    .header-navbar-transparent.header-navbar-fixed.header-navbar-scroll #header-navbar {
-        height: 120px !important;
     }
     .flex{
       display: block !important;

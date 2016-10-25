@@ -1,7 +1,7 @@
 
     $(function(){
       $(".element").typed({
-        strings: ["mejorar tu negocio.","ahorrar tiempo y dinero", "ser mas rentable.","ser mas productivo."],
+        strings: ["mejorar tu negocio.","ahorrar tiempo.", "ser mas rentable.","ahorrar dinero.","ser mas productivo."],
         typeSpeed: 50,
         // time before typing starts
         startDelay: 200,

@@ -11,15 +11,15 @@ var critical = require('critical');
  | for your Laravel application. By default, we are compiling the Sass
  | file for our application, as well as publishing vendor resources.
  |
-
-
+ 
+ 
  */
 
 elixir(mix => {
-mix.task('critical');
-mix.styles(['bootstrap.min.css','oneui.min.css','app.css'],'public/assets/css/all.min.css')
-.scripts(['oneui.min.js','typed.min.js','app.js'],'public/assets/js/all.min.js')
-
+    mix.task('critical');
+    mix.styles(['bootstrap.min.css', 'oneui.min.css', 'app.css'], 'public/assets/css/all.min.css')
+        .scripts(['oneui.min.js', 'typed.min.js', 'app.js'], 'public/assets/js/all.min.js')
+    
 });
 
 gulp.task('critical', function (cb) {
@@ -34,10 +34,10 @@ gulp.task('critical', function (cb) {
         dimensions: [{
             width: 320,
             height: 480
-        },{
+        }, {
             width: 768,
             height: 1024
-        },{
+        }, {
             width: 1280,
             height: 960
         }],
