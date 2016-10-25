@@ -168,6 +168,7 @@ return [
          * Package Service Providers...
          */
          Spatie\ResponseCache\ResponseCacheServiceProvider::class,
+         GrahamCampbell\HTMLMin\HTMLMinServiceProvider::class,
 
         //
 
@@ -232,6 +233,7 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'ResponseCache' => Spatie\ResponseCache\ResponseCacheFacade::class,
+        'HTMLMin' => GrahamCampbell\HTMLMin\Facades\HTMLMin::class,
 
     ],
 
