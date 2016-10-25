@@ -1,3 +1,17 @@
+.bg-radial-gradient-blue {
+  background-image: -webkit-radial-gradient(circle closest-corner at 50% 70%, #37b99b, #0e596c 99%);
+  background-image: radial-gradient(circle closest-corner at 50% 70%, #37b99b, #0e596c 99%);
+}
+
+.portada{
+  margin: 150px 230px 50px 230px;
+}
+
+.portada .h1{
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+
 .font-s26{
     font-size: 26px !important;
 }

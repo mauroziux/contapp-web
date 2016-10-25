@@ -1,6 +1,6 @@
 const elixir = require('laravel-elixir');
 
-//var critical = require('critical');
+var critical = require('critical');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,10 +12,11 @@ const elixir = require('laravel-elixir');
  | file for our application, as well as publishing vendor resources.
  |
 
- mix.task('critical');
+
  */
 
 elixir(mix => {
+mix.task('critical');
 mix.styles(['bootstrap.min.css','oneui.min.css','app.css'],'public/assets/css/all.min.css')
 .scripts(['oneui.min.js','typed.min.js','app.js'],'public/assets/js/all.min.js')
 
