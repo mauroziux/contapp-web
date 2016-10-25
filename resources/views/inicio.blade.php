@@ -23,7 +23,7 @@
             </button>
           </div>
           <div class="row animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp">
-            <img src="https://static.contapp.com.co/contapp-web/portada.png" width="100%" alt="software pos colombia" class="">
+            <img src="https://static.contapp.com.co/contapp-web/sistema-pos-contapp.png" width="100%" alt="software pos colombia" class="">
           </div>
           <!-- END Section Content -->
         </section>

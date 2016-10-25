@@ -1,6 +1,6 @@
 const elixir = require('laravel-elixir');
 
-require('laravel-elixir-vue-2');
+var critical = require('critical');
 
 /*
  |--------------------------------------------------------------------------
@@ -14,6 +14,32 @@ require('laravel-elixir-vue-2');
  */
 
 elixir(mix => {
-    mix.sass('app.scss')
-       .webpack('app.js');
+    mix.task('critical');
+    
+});
+
+gulp.task('critical', function (cb) {
+    critical.generate({
+        base: 'public/',
+        src: 'index.html',
+        css: [
+            'public/assets/css/bootstrap.min.css',
+            'public/assets/css/oneui.min.css',
+            'public/assets/css/app.css',
+        ],
+        dimensions: [{
+            width: 320,
+            height: 480
+        },{
+            width: 768,
+            height: 1024
+        },{
+            width: 1280,
+            height: 960
+        }],
+        dest: 'public/assets/css/critical.css',
+        minify: true,
+        extract: false,
+        ignore: ['font-face']
+    });
 });
