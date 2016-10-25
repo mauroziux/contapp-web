@@ -138,6 +138,21 @@ border-radius: 3px;
     overflow: hidden;
 }
 
+.relative{
+  position: relative !important;
+}
+
+.dl{
+  display: inline !important;
+}
+
+.video .video-ventas{
+  left: 8.742632612967% !important;
+  right: 9.037328094303% !important;
+   top: 6.068965517241% !important;
+    bottom: 7.172413793103% !important;
+}
+
 @media (max-width: 768px) {
    .tc{
        display: inline-block !important;

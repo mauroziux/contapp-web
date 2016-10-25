@@ -58,10 +58,10 @@
               <div class=" content-boxed">
                 <section class="content content-full content-boxed overflow-hidden flex" >
                   <div class="col-sm-7" >
-                    <div class="" style="display: inline;">
-                      <div class="relative" style="position:relative">
+                    <div class="dl">
+                      <div class="relative video">
                         <svg class="db w-100" viewBox="500 6340 996 710" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M.217.775h614.65V819.74H.217z"></path></defs><g fill="none" fill-rule="evenodd" transform="rotate(90 -2422.5 3917.5)"><rect fill="#D1D5DA" x="10" width="699.481" height="993.316" rx="36.8"></rect><rect fill="#EBEDEF" width="699.481" height="993.316" rx="36.8"></rect><ellipse cx="6.403" cy="6.704" rx="6.002" ry="5.998" transform="translate(343.338 39.59)" fill="#FFF" opacity=".4"></ellipse><ellipse fill="#D1D5DA" cx="349.741" cy="952.128" rx="24.01" ry="23.993"></ellipse><use fill="#6D8199" xlink:href="#a" transform="translate(43 88)"></use></g></svg>
-                        <div class="absolute overflow-hidden" style="left: 8.742632612967%; right: 9.037328094303%; top: 6.068965517241%; bottom: 7.172413793103%;">
+                        <div class="absolute overflow-hidden video-ventas">
                           <video width="100%" height="100%" autoplay="" loop="" muted="">
                             <source src="https://static.contapp.com.co/contapp-web/ventas.mp4" type="video/mp4">
                             </video>
