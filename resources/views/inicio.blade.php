@@ -23,7 +23,7 @@
             </button>
           </div>
           <div class="row animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp">
-            <img src="https://static.contapp.com.co/contapp-web/sistema-pos-contapp.png" width="100%" alt="software pos colombia" class="">
+            <img src="https://static.contapp.com.co/contapp-web/sistema-pos-contapp.png" width="100%" alt="sistema pos colombia" class="">
           </div>
           <!-- END Section Content -->
         </section>
@@ -277,7 +277,7 @@
                               {!! Form::close() !!}
                             </div>
                             <div class="col-sm-4 padding-30">
-                              <img class="img-responsive" height="173" width="281"  src="https://static.contapp.com.co/contapp-web/mapa.png" alt="sistema pos colombia" />
+                              <img class="img-responsive" height="173" width="281"  src="https://static.contapp.com.co/contapp-web/mapa-contapp.png" alt="sistema pos colombia" />
                             </div>
                           </section>
                         </div>

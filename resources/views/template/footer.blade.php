@@ -12,7 +12,7 @@
                        de su negocio.</p>
                 </div>
             </div>
-            
+
             <div class="col-sm-4">
                 <h3 class="h4 font-w600 text-white-op text-center text-uppercase push-20">La Empresa</h3>
                 <div class="padding-30">
@@ -73,7 +73,7 @@
                 <h3 class="h4 font-w600 text-white-op text-center text-uppercase push-20-t push-20">
                     Quienes nos apoyan</h3>
                 <img class="img-responsive" height="53" alt="socios contapp" width="301"
-                     src="https://static.contapp.com.co/contapp-web/apoyo.png">
+                     src="https://static.contapp.com.co/contapp-web/aliados-contapp.png">
             </div>
         
         </div>
