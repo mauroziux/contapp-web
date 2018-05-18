@@ -4,7 +4,7 @@
 <meta name="author" content="Ziuxlab">
 <meta name="robots" content="index, follow">
 <meta name="keywords" content="sistema facturacion pos, software pos Colombia, software punto de venta, sistema punto de venta, sistema administrativo, control de inventarios">
-<link rel=”canonical” href=”https://contapp.com.co” />
+<link rel='canonical' href='https://contapp.com.co' />
 <style>
 html, body {
   height: 100%;
