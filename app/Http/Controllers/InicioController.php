@@ -23,6 +23,6 @@ class InicioController extends Controller
 					->subject('From SparkPost with ❤');
 		});
 		
-		return $request->all();
+		return redirect('/');
 	}
 }
