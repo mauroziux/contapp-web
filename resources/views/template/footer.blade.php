@@ -26,21 +26,15 @@
                         <li>
                             <a class="font-w600" href="#">Planes</a>
                         </li>
-                        <li>
-                            <a class="font-w600" href="#">Equipo</a>
-                        </li>
                     </ul>
                   </div>
                   <div class="col-md-6">
                     <ul class="list list-simple-mini font-s16">
                         <li>
-                            <a class="font-w600" href="#">Blog</a>
+                            <a class="font-w600" href="https://app.contapp.com.co/demo">Demo</a>
                         </li>
                         <li>
-                            <a class="font-w600" href="#">Demo</a>
-                        </li>
-                        <li>
-                            <a class="font-w600" href="#">Ingreso</a>
+                            <a class="font-w600" href="https://app.contapp.com.co/auth/login">Ingreso</a>
                         </li>
                     </ul>
                   </div>
@@ -87,7 +81,7 @@
                       <h4 class="h1 font-w600 text-center text-white">Tus 30 Días GRATIS</h4>
                       <h4 class="h3 font-w500 text-center text-white">¡Consiguelo Ahora!</h4>
                       <div class="push-20-t">
-                          {!! Form::open(['url' => 'foo/bar','class'=>'form-horizontal']) !!}
+                          {!! Form::open(['action' => 'InicioController@store','class'=>'form-horizontal']) !!}
                           <div class="form-group">
                             <div class="col-md-12">
                               {!! Form::text('name', null,['class'=>'form-control font-s20 input-lg','placeholder'=>'Ingrese su Nombre']) !!}

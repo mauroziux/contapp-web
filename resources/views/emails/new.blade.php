@@ -1,0 +1,1 @@
+<div><b>Nombre: </b>{{$data->name}}</div>

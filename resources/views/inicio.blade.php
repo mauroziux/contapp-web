@@ -254,18 +254,18 @@
                             </div>
                           </div>
                           <div class="col-sm-4 padding-30">
-                            {!! Form::open(['url' => 'foo/bar','class'=>'form-horizontal']) !!}
+                            {!! Form::open(['action' => 'InicioController@store','class'=>'form-horizontal']) !!}
                             <div class="form-group">
                               <div class="col-md-6">
                                 {!! Form::text('name', null,['class'=>'form-control input-lg','placeholder'=>'Nombre completo']) !!}
                               </div>
                               <div class="col-md-6">
-                                {!! Form::text('name', null,['class'=>'form-control  input-lg','placeholder'=>'Correo Electrónico']) !!}
+                                {!! Form::text('email', null,['class'=>'form-control  input-lg','placeholder'=>'Correo Electrónico']) !!}
                               </div>
                             </div>
                             <div class="form-group">
                               <div class="col-md-12">
-                                {!! Form::textarea('name', null,['class'=>'form-control  input-lg',
+                                {!! Form::textarea('mensaje', null,['class'=>'form-control  input-lg',
                                   'placeholder'=>'Mensaje','rows'=>'7']) !!}
                                 </div>
                               </div>

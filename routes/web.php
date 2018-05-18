@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'InicioController@index');
+Route::resource('/', 'InicioController');
