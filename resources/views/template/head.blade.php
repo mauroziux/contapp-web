@@ -170,3 +170,18 @@ padding-left: 15px;
 <!-- jquery -->
 
 <!-- END jquery -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://contapp.com.co",
+  "logo": "https://static.contapp.com.co/contapp-web/logo.png"
+  "name": "Contapp Colombia.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+57-314-553-5632",
+    "contactType": "Customer service"
+  }
+}
+</script>
