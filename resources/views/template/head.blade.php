@@ -176,7 +176,7 @@ padding-left: 15px;
   "@context": "http://schema.org",
   "@type": "Organization",
   "url": "https://contapp.com.co",
-  "logo": "https://static.contapp.com.co/contapp-web/logo.png"
+  "logo": "https://static.contapp.com.co/contapp-web/logo.png",
   "name": "Contapp Colombia.",
   "contactPoint": {
     "@type": "ContactPoint",
