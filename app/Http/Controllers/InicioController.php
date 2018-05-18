@@ -19,7 +19,7 @@ class InicioController extends Controller
 	{
 		Mail::send('emails.new', ['data'=>$request], function($message) use ($request){
 			$message->from('ventas@contapp.com.co', 'Contapp')
-					->to($request->email, $request->name)
+					->to('mauroziux@gmail.com', $request->name)
 					->subject('From SparkPost with ❤');
 		});
 		
