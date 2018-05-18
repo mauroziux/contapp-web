@@ -84,19 +84,19 @@
                           {!! Form::open(['action' => 'InicioController@store','class'=>'form-horizontal']) !!}
                           <div class="form-group">
                             <div class="col-md-12">
-                              {!! Form::text('name', null,['class'=>'form-control font-s20 input-lg','placeholder'=>'Ingrese su Nombre']) !!}
+                              {!! Form::text('name', null,['class'=>'form-control font-s20 input-lg','placeholder'=>'Ingrese su Nombre','required']) !!}
                             </div>
                           </div>
                           <div class="form-group">
                             <div class="col-md-12">
                               {!! Form::email('email', null,['class'=>'form-control font-s20 input-lg',
-                                'placeholder'=>'Ingrese su correo electrónico']) !!}
+                                'placeholder'=>'Ingrese su correo electrónico','required']) !!}
                             </div>
                           </div>
                           <div class="form-group">
                             <div class="col-md-12">
                               {!! Form::text('telefono', null,['class'=>'form-control font-s20 input-lg',
-                                'placeholder'=>'Ingrese su número telefónico']) !!}
+                                'placeholder'=>'Ingrese su número telefónico','required']) !!}
                             </div>
                           </div>
                           <div class="form-group">
