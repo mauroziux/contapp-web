@@ -1,7 +1,7 @@
 @extends('template.master')
 
 @section('meta')
-  <title>Contapp: Software Punto de Venta POS - Sistema Administrativo</title>
+  <title>Contapp: Software Punto de Venta POS y Facturación Colombia</title>
   <meta name="description"
   content="Lleva tu empresa a otro nivel con Contapp el mejor Software de Punto de Venta y sistema POS con el que podrás administrar tu negocio desde la nube.">
 @stop
