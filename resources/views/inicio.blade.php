@@ -389,7 +389,7 @@
                         </div>
                         <div class="col-sm-8 text-center">
                             <p class="h3 font-w600 push-15-t">¿Telefonos?</p>
-                            <p class="font-s16 font-w500">315-578-0807 Y 314-553-5632</p>
+                            <p class="font-s16 font-w500">314-553-5632</p>
                         </div>
                     </div>
                     <div class="row push">
