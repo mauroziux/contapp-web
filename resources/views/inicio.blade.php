@@ -8,7 +8,7 @@
 
 @section('contenido')
     <main id="main-container">
-        <div class="bg-radial-gradient-blue">
+        <div class="bg-radial-gradient-blue" id="inicio">
             <section class="content content-full content-boxed overflow-hidden remove-padding">
                 <!-- Section Content -->
                 <div class="text-center portada">

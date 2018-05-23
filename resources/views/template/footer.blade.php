@@ -18,13 +18,13 @@
                   <div class="col-md-6">
                     <ul class="list list-simple-mini font-s16">
                         <li>
-                            <a class="font-w600" href="#">Inicio</a>
+                            <a class="font-w600" href="#inicio">Inicio</a>
                         </li>
                         <li>
-                            <a class="font-w600" href="#">Características</a>
+                            <a class="font-w600" href="#caracteristicas">Características</a>
                         </li>
                         <li>
-                            <a class="font-w600" href="#">Planes</a>
+                            <a class="font-w600" href="#planes">Planes</a>
                         </li>
                     </ul>
                   </div>
