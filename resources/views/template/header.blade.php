@@ -17,10 +17,10 @@
                 <!-- Main Header Navigation -->
                 <ul class="nav-header navbar-centered push-10-t tc">
                     <li>
-                        <a class="text-white font-s16 font-w400" href="#">Características</a>
+                        <a class="text-white font-s16 font-w400" href="#caracteristicas">Características</a>
                     </li>
                     <li>
-                        <a class="text-white font-s16 font-w400" href="#">Planes</a>
+                        <a class="text-white font-s16 font-w400" href="#planes">Planes</a>
                     </li>
                     <li>
                         <a class="text-white font-s16 font-w400" href="https://app.contapp.com.co/demo">Demo</a>

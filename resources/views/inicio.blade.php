@@ -58,7 +58,7 @@
             </section>
 
         </div>
-        <div class="bg-primary-darker">
+        <div class="bg-primary-darker" id="caracteristicas">
             <div class=" content-boxed">
                 <section class="content content-full content-boxed overflow-hidden flex">
                     <div class="col-sm-7">
@@ -237,7 +237,7 @@
                     </div>
                 </section>
             </div>
-            <section class="content content-boxed overflow-hidden">
+            <section id="planes" class="content content-boxed overflow-hidden">
                 <div class="row">
                     <div class="col-sm-12 padding-30 v-center">
                         <h2 class="h1 font-s36 text-center text-white">Planes Super flexibles.</h2>
