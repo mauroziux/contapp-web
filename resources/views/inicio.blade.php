@@ -249,10 +249,11 @@
                     <div class="col-sm-4  animated fadeInUp" data-toggle="appear" data-offset="50" data-class="animated fadeInUp">
                         <a class="block block-link-hover2 text-center" href="#">
                             <div class="block-header">
-                                <h3 class="block-title">Mensual</h3>
+                                <h3 class="block-title">Emprendedor</h3>
                             </div>
                             <div class="block-content block-content-full bg-warning">
-                                <div class="h1 font-w700 text-white push-10">$<span id="monto_mensual">40,000</span>
+                                <div class="ribbon-box font-w600">-15%</div>
+                                <div class="h1 font-w700 text-white push-10">$<span id="monto_mensual">35,000</span>
                                 </div>
                                 <div class="h5 font-w300 text-white-op">Por mes</div>
                             </div>
@@ -280,19 +281,19 @@
                                 </table>
                             </div>
                             <div class="block-content block-content-mini block-content-full bg-gray-lighter">
-                                <span class="btn btn-warning pagar" data-toggle="modal" data-target="#sign-up-form"">Suscribirme</span>
-                                <span id="valor_mensual" class="hidden">40000</span>
+                                <span class="btn btn-warning pagar" data-toggle="modal" data-target="#sign-up-form" data-value="420000">Suscribirme</span>
+                                <span id="valor_mensual" class="hidden">420000</span>
                             </div>
                         </a>
                     </div>
                     <div class="col-sm-4  animated fadeInUp" data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
                         <a class="block block-link-hover2 text-center" href="#">
                             <div class="block-header">
-                                <h3 class="block-title">Trimestral</h3>
+                                <h3 class="block-title">Empresarial</h3>
                             </div>
                             <div class="block-content block-content-full bg-primary ribbon ribbon-bookmark ribbon-danger">
-                                <div class="ribbon-box font-w600">-10%</div>
-                                <div class="h1 font-w700 push-10">$<span id="monto_trimestral">36,000</span></div>
+                                <div class="ribbon-box font-w600">-30%</div>
+                                <div class="h1 font-w700 push-10">$<span id="monto_trimestral">70,000</span></div>
                                 <div class="h5 font-w300 text-white-op">Por mes</div>
                             </div>
                             <div class="block-content">
@@ -307,9 +308,7 @@
                                         <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> 5 Usuarios</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> 2 Tiendas
-                                            Ilimitadas
-                                        </td>
+                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> 2 Tiendas</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Soporte</strong> por email y Teléfono</td>
@@ -318,7 +317,7 @@
                                 </table>
                             </div>
                             <div class="block-content block-content-mini block-content-full bg-gray-lighter">
-                                <span class="btn btn-primary pagar" data-toggle="modal" data-target="#sign-up-form" data-value="94500">Suscribirme</span>
+                                <span class="btn btn-primary pagar" data-toggle="modal" data-target="#sign-up-form" data-value="840000">Suscribirme</span>
                                 <span id="valor_trimestral" class="hidden"></span>
                             </div>
                         </a>
@@ -326,11 +325,11 @@
                     <div class="col-sm-4  animated fadeInUp" data-toggle="appear" data-offset="50" data-timeout="400" data-class="animated fadeInUp">
                         <a class="block block-link-hover2 text-center" href="#">
                             <div class="block-header">
-                                <h3 class="block-title">Anual</h3>
+                                <h3 class="block-title">Franquicias</h3>
                             </div>
                             <div class="block-content block-content-full bg-success ribbon ribbon-bookmark ribbon-danger">
                                 <div class="ribbon-box font-w600">-30%</div>
-                                <div class="h1 font-w700 text-white push-10">$<span id="monto_anual">28,000</span></div>
+                                <div class="h1 font-w700 text-white push-10">$<span id="monto_anual">120,000</span></div>
                                 <div class="h5 font-w300 text-white-op">por mes</div>
                             </div>
                             <div class="block-content ">
@@ -358,7 +357,7 @@
                                 </table>
                             </div>
                             <div class="block-content block-content-mini block-content-full bg-gray-lighter">
-                                <span class="btn btn-success pagar" data-toggle="modal" data-target="#sign-up-form" data-value="336000">Suscribirme</span>
+                                <span class="btn btn-success pagar" data-toggle="modal" data-target="#sign-up-form" data-value="1440000">Suscribirme</span>
                                 <span id="valor_anual" class="hidden"></span>
                             </div>
                         </a>
