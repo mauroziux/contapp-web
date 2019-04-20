@@ -408,10 +408,10 @@
                     {!! Form::open(['action' => 'InicioController@store','class'=>'form-horizontal']) !!}
                     <div class="form-group">
                         <div class="col-md-6">
-                            {!! Form::text('name', null,['class'=>'form-control input-lg','placeholder'=>'Nombre completo']) !!}
+                            {!! Form::text('name', null,['class'=>'form-control input-lg','placeholder'=>'Nombre completo','required']) !!}
                         </div>
                         <div class="col-md-6">
-                            {!! Form::text('email', null,['class'=>'form-control  input-lg','placeholder'=>'Correo Electrónico']) !!}
+                            {!! Form::text('email', null,['class'=>'form-control  input-lg','placeholder'=>'Correo Electrónico','required']) !!}
                         </div>
                     </div>
                     <div class="form-group">

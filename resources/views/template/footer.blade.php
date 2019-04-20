@@ -102,13 +102,13 @@
                           <div class="form-group">
                             <div class="col-md-12">
                               {!! Form::text('empresa', null,['class'=>'form-control font-s20 input-lg',
-                                'placeholder'=>'Nombre de su empresa']) !!}
+                                'placeholder'=>'Nombre de su empresa','required']) !!}
                             </div>
                           </div>
                           <div class="form-group">
                             <div class="col-md-12">
                               {!! Form::text('ciudad', null,['class'=>'form-control font-s20 input-lg',
-                                'placeholder'=>'Ciudad de ubicación']) !!}
+                                'placeholder'=>'Ciudad de ubicación','required']) !!}
                             </div>
                           </div>
                           <div class="form-group">
