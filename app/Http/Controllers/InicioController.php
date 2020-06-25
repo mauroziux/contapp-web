@@ -18,11 +18,11 @@ class InicioController extends Controller
 	
 	public function store(Request $request)
 	{
-		Mail::queue('emails.new', ['data'=>$request], function($message) use ($request){
+		/*Mail::send('emails.new', ['data'=>$request], function($message) use ($request){
 			$message->from('ventas@contapp.com.co', 'Contapp')
 					->to('mauroziux@gmail.com', $request->name)
 					->subject('Contapp with ❤');
-		});
+		});*/
 		
 		return Redirect::away('https://app.contapp.com.co/auth/register');
 	}
