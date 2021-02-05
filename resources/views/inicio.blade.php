@@ -1,9 +1,9 @@
 @extends('template.master')
 
 @section('meta')
-    <title>Contapp: Software Punto de Venta POS y Facturación Colombia</title>
+    <title>Contapp: Software Punto de Venta POS y Facturación electrónica Colombia</title>
     <meta name="description"
-          content="Lleva tu empresa a otro nivel con Contapp el mejor Software de Punto de Venta y sistema POS con el que podrás administrar tu negocio desde la nube.">
+          content="Lleva tu empresa a otro nivel con Contapp el mejor Software de Punto de Venta, sistema POS y facturacion electrónica con el que podrás administrar tu negocio desde la nube.">
 @stop
 
 @section('contenido')
@@ -12,7 +12,7 @@
             <section class="content content-full content-boxed overflow-hidden remove-padding">
                 <!-- Section Content -->
                 <div class="text-center portada">
-                    <h1 class="h1 typer font-s64 font-w600 text-white push">Sistema POS y Administrativo</br>para
+                    <h1 class="h1 typer font-s64 font-w600 text-white push">Sistema POS, facturación electrónica y Administrativo</br>para
                         <span class="element"></span></h1>
                     <h2 class="h3 text-white-op push content-boxed ">Contapp es un software de punto de venta, gestión
                         de inventario, cuadre de caja, Informes y mucho más, que ayudará a administrar fácilmente y
@@ -36,7 +36,7 @@
                     <div class="content-boxed">
                         <div class="col-sm-4 text-center">
                             <img src="https://static.contapp.com.co/contapp-web/benefit-time.svg" alt="ahorra tiempo con el sistema pos"/>
-                            <p class="text-white font-s16">Ahorra tiempo automatizando cada uno de tus procesos de <b>facturación</b>,
+                            <p class="text-white font-s16">Ahorra tiempo automatizando cada uno de tus procesos de <b>facturación electrónica</b>,
                                 ten el control de tu empresa en tiempo real y desde cualquier lugar y dedicate a hacer
                                 lo que más te gusta</p>
                         </div>
@@ -87,7 +87,7 @@
                     <div class="col-sm-5 padding-30 v-center ">
                         <h2 class="h1 font-s36 text-center text-white push">El sistema POS perfecto para ti</h2>
                         <p class="text-white-op font-s16">Imagina poder atender a tu cliente desde tu tablet, responder
-                            sus preguntas y asesorarlo de manera inmediata, además poder facturar y todo de una manera
+                            sus preguntas y asesorarlo de manera inmediata, además poder facturar tipo POS y de manera Electrónica y todo de una manera
                             mas personalizada.</p>
                         <p class="text-white-op font-s16">
                             <b>Contapp</b> hace que vender sea más facil a sus clientes, <em>descarga de su
@@ -253,7 +253,7 @@
                             </div>
                             <div class="block-content block-content-full bg-warning">
                                 <div class="ribbon-box font-w600">-15%</div>
-                                <div class="h1 font-w700 text-white push-10">$<span id="monto_mensual">35,000</span>
+                                <div class="h1 font-w700 text-white push-10">$<span id="monto_mensual">39,000</span>
                                 </div>
                                 <div class="h5 font-w300 text-white-op">Por mes</div>
                             </div>
@@ -261,8 +261,12 @@
                                 <table class="table table-borderless table-condensed">
                                     <tbody>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Ventas
-                                            Ilimitadas
+                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong>1000 Ventas
+                                            al mes
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong>500 productos
                                         </td>
                                     </tr>
                                     <tr>
@@ -282,7 +286,7 @@
                             </div>
                             <div class="block-content block-content-mini block-content-full bg-gray-lighter">
                                 <span class="btn btn-warning pagar" data-toggle="modal" data-target="#sign-up-form" data-value="420000">Suscribirme</span>
-                                <span id="valor_mensual" class="hidden">420000</span>
+                                <span id="valor_mensual" class="hidden">390000</span>
                             </div>
                         </a>
                     </div>
@@ -292,8 +296,8 @@
                                 <h3 class="block-title">Empresarial</h3>
                             </div>
                             <div class="block-content block-content-full bg-primary ribbon ribbon-bookmark ribbon-danger">
-                                <div class="ribbon-box font-w600">-30%</div>
-                                <div class="h1 font-w700 push-10">$<span id="monto_trimestral">70,000</span></div>
+                                <div class="ribbon-box font-w600">-20%</div>
+                                <div class="h1 font-w700 push-10">$<span id="monto_trimestral">79,000</span></div>
                                 <div class="h5 font-w300 text-white-op">Por mes</div>
                             </div>
                             <div class="block-content">
@@ -301,6 +305,11 @@
                                     <tbody>
                                     <tr>
                                         <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Ventas
+                                            Ilimitadas
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Productos
                                             Ilimitadas
                                         </td>
                                     </tr>
@@ -317,7 +326,7 @@
                                 </table>
                             </div>
                             <div class="block-content block-content-mini block-content-full bg-gray-lighter">
-                                <span class="btn btn-primary pagar" data-toggle="modal" data-target="#sign-up-form" data-value="840000">Suscribirme</span>
+                                <span class="btn btn-primary pagar" data-toggle="modal" data-target="#sign-up-form" data-value="760000">Suscribirme</span>
                                 <span id="valor_trimestral" class="hidden"></span>
                             </div>
                         </a>
@@ -329,7 +338,7 @@
                             </div>
                             <div class="block-content block-content-full bg-success ribbon ribbon-bookmark ribbon-danger">
                                 <div class="ribbon-box font-w600">-30%</div>
-                                <div class="h1 font-w700 text-white push-10">$<span id="monto_anual">120,000</span></div>
+                                <div class="h1 font-w700 text-white push-10">$<span id="monto_anual">150,000</span></div>
                                 <div class="h5 font-w300 text-white-op">por mes</div>
                             </div>
                             <div class="block-content ">
@@ -338,6 +347,11 @@
                                     <tr>
                                         <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Ventas
                                             Ilimitadas
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Productos
+                                            ilimitados
                                         </td>
                                     </tr>
                                     <tr>
@@ -357,7 +371,7 @@
                                 </table>
                             </div>
                             <div class="block-content block-content-mini block-content-full bg-gray-lighter">
-                                <span class="btn btn-success pagar" data-toggle="modal" data-target="#sign-up-form" data-value="1440000">Suscribirme</span>
+                                <span class="btn btn-success pagar" data-toggle="modal" data-target="#sign-up-form" data-value="1260">Suscribirme</span>
                                 <span id="valor_anual" class="hidden"></span>
                             </div>
                         </a>
