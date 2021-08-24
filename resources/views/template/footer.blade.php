@@ -123,4 +123,7 @@
             </div>
         </div>
     </div>
+
+    <!-- Load Facebook SDK for JavaScript -->
+
 </footer>
