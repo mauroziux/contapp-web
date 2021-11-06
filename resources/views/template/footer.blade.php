@@ -70,6 +70,8 @@
       <!-- Copyright Info -->
       <div class="font-s20 text-center push-10-t clearfix">
         <p>Creado con <i class="fa fa-heart text-city"></i> en Colombia</p>
+          <p>Felix mauricio suarez vega Nit:1001283353-3</p>
+          <a href="mailto:mauroziux@gmail.com" target="_blank">Mauroziux@gmail.com</a>
       </div>
       <!-- END Copyright Info -->
     </div>
