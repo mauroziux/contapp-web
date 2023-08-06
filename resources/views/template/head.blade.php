@@ -31,7 +31,7 @@
 <link rel="dns-prefetch" href="//static.contapp.com.co">
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
-<!-- Scripts -->
+
 
 
 @vite(['resources/css/app.css', 'public/js/app.js'])
@@ -42,6 +42,8 @@
 <!-- Web fonts -->
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700" media="none" onload="if(media!='all')media='all'">
 
+
+<!-- Scripts -->
 <style>
     html, body {
         height: 100%;
@@ -168,7 +170,6 @@
     }
 
 </style>
-
 
 <!-- jquery -->
 
