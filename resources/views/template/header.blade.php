@@ -29,8 +29,12 @@
                         <a class="text-white font-s16 font-w400" href="https://app.contapp.com.co/auth/login">Login</a>
                     </li>
                     <li class="hidden-xs">
-                        <button class="btn btn-primary btn-noborder font-s16 font-w400" data-toggle="modal" data-target="#sign-up-form">Empieza Gratis</button>
-                    </li>
+
+                        <a target="_blank" href="https://app.contapp.com.co">
+                            <button class="btn btn-primary btn-noborder font-s16 font-w400" data-toggle="modal" data-target="#sign-up-form">Empieza Gratis</button>
+
+                        </a>
+                     </li>
                 </ul>
                 <!-- END Main Header Navigation -->
             </div>

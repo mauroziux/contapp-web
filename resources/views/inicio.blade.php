@@ -17,10 +17,14 @@
                     <h2 class="h3 text-white-op push content-boxed ">Contapp es un software de punto de venta, gestión
                         de inventario, cuadre de caja, Informes y mucho más, que ayudará a administrar fácilmente y
                         hacer crecer su negocio.</h2>
-                    <button data-toggle="modal" data-target="#sign-up-form"
-                            class="btn btn-primary animated font-s26 bounceIn  btn-lg">
-                        Pruébalo ahora Gratis
-                    </button>
+
+                    <h3 class="h3 text-white-op push content-boxed ">Ahora con factura electronica ilimitada GRATIS y POS electrónico nunca fue más fácil tomar una decisión.</h3>
+                    <a target="_blank" href="https://app.contapp.com.co">
+                        <button data-toggle="modal" data-target="#sign-up-form"
+                                class="btn btn-primary animated font-s26 bounceIn  btn-lg">
+                            Pruébalo ahora Gratis
+                        </button>
+                    </a>
                 </div>
                 <div class="row animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp">
                     <img src="https://static.contapp.com.co/contapp-web/portada.png" width="100%" alt="software pos colombia" class="">
@@ -87,10 +91,10 @@
                     <div class="col-sm-5 padding-30 v-center ">
                         <h2 class="h1 font-s36 text-center text-white push">El sistema POS perfecto para ti</h2>
                         <p class="text-white-op font-s16">Imagina poder atender a tu cliente desde tu tablet, responder
-                            sus preguntas y asesorarlo de manera inmediata, además poder facturar tipo POS y de manera Electrónica y todo de una manera
-                            mas personalizada.</p>
+                            sus preguntas y asesorarlo de manera inmediata, además poder facturar electrónicamente sea POS o factura normal y todo de una manera
+                            más personalizada.</p>
                         <p class="text-white-op font-s16">
-                            <b>Contapp</b> hace que vender sea más facil a sus clientes, <em>descarga de su
+                            <b>Contapp</b> hace que vender sea más fácil a sus clientes, <em>descarga de su
                                 inventario</em>, <em>organiza su caja</em>, <em>alimenta todos los reportes,</em> todo
                             esto de manera inmediata desde su PC, Tablet o celular.
                         </p>
@@ -245,38 +249,58 @@
 
                     </div>
                 </div>
-                <div class="row push-20-t push-20">
-                    <div class="col-sm-4  animated fadeInUp" data-toggle="appear" data-offset="50" data-class="animated fadeInUp">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="alert alert-danger text-center" style="padding: 20px">
+                            <div class="h4 push-15">
+                                información importante
+                            </div>
+                            <div>
+                                todos los planes en la modalidad de pago anual tienen gratis <b>Certificado de firma digital</b> y
+                                facturacion electronica ilimitada <b>Gratis</b>
+                            </div>
+                        </div>
+                        <div class="flex  " style="align-items: center; justify-content: center; padding: 20px">
+                            <span class="form-check-label h3 " >Mensual</span>
+
+                            <div style="margin-left: 2rem; margin-right: 2rem">
+                                <input value="1" name="anually" onclick="cambiarPeriodo()" type="checkbox" class="theme-checkbox">
+                            </div>
+                            <span class="form-check-label h3" >Anual</span>
+
+                        </div>
+
+                    </div>
+                    <div class="col-sm-4 col-lg-4" id="mensual">
                         <a class="block block-link-hover2 text-center" href="#">
                             <div class="block-header">
                                 <h3 class="block-title">Emprendedor</h3>
                             </div>
                             <div class="block-content block-content-full bg-warning">
-                                <div class="ribbon-box font-w600">-15%</div>
-                                <div class="h1 font-w700 text-white push-10">$<span id="monto_mensual">39,000</span>
+                                <div class="h1 font-w700 text-white  monthly ">$<span id="monto_mensual">49.000</span>
                                 </div>
-                                <div class="h5 font-w300 text-white-op">Por mes</div>
+                                <div class="h1 font-w700 text-white yearly hide">$<span id="monto_mensual">490.000</span>
+                                </div>
+                                <div class="h4 font-w300 text-white-op">Por mes</div>
+                                <div class="h4 font-w300 text-white-op">Ahorra <b>$98.000</b> anual</div>
                             </div>
                             <div class="block-content">
                                 <table class="table table-borderless table-condensed">
                                     <tbody>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong>1000 Ventas
-                                            al mes
-                                        </td>
+                                        <td><strong><i class="fa fa-check"></i></strong> 1000 Ventas por mes</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong>500 productos
-                                        </td>
+                                        <td><strong><i class="fa fa-check"></i></strong> Facturación electrónica</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> 2 Usuarios
-
-                                        </td>
+                                        <td><strong><i class="fa fa-check"></i></strong> 500 Productos</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> 1 Tienda
-                                        </td>
+                                        <td><strong><i class="fa fa-check"></i></strong> 2 Usuarios</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check"></i></strong> 1 Tienda</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Soporte</strong> por email</td>
@@ -285,39 +309,41 @@
                                 </table>
                             </div>
                             <div class="block-content block-content-mini block-content-full bg-gray-lighter">
-                                <span class="btn btn-warning pagar" data-toggle="modal" data-target="#sign-up-form" data-value="420000">Suscribirme</span>
-                                <span id="valor_mensual" class="hidden">390000</span>
+                    <span class="btn btn-warning pagar" id="mensual"
+                          onclick="suscribirme('emprendedor')">Suscribirme</span>
+                                <span id="valor_mensual" class="hidden"></span>
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4  animated fadeInUp" data-toggle="appear" data-offset="50" data-timeout="200" data-class="animated fadeInUp">
+                    <div class="col-sm-4 col-lg-4">
                         <a class="block block-link-hover2 text-center" href="#">
                             <div class="block-header">
                                 <h3 class="block-title">Empresarial</h3>
                             </div>
                             <div class="block-content block-content-full bg-primary ribbon ribbon-bookmark ribbon-danger">
-                                <div class="ribbon-box font-w600">-20%</div>
-                                <div class="h1 font-w700 push-10">$<span id="monto_trimestral">79,000</span></div>
-                                <div class="h5 font-w300 text-white-op">Por mes</div>
+                                <div class="h1 font-w700  monthly">$<span id="monto_trimestral">99.000</span></div>
+                                <div class="h1 font-w700 text-white  yearly hide">$<span id="monto_mensual">990.000</span>
+                                </div>
+                                <div class="h4 font-w300 text-white-op">Por mes</div>
+                                <div class="h4 font-w300 text-white-op">Ahorra <b>$198.000</b> anual</div>
                             </div>
                             <div class="block-content">
                                 <table class="table table-borderless table-condensed">
                                     <tbody>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Ventas
-                                            Ilimitadas
-                                        </td>
+                                        <td><strong><i class="fa fa-check"></i></strong> Ventas Ilimitadas</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Productos
-                                            Ilimitadas
-                                        </td>
+                                        <td><strong><i class="fa fa-check"></i></strong> Facturación electrónica</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> 5 Usuarios</td>
+                                        <td><strong><i class="fa fa-check"></i></strong> Productos Ilimitados</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> 2 Tiendas</td>
+                                        <td><strong><i class="fa fa-check"></i></strong> 5 Usuarios</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check"></i></strong>2 Tiendas</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Soporte</strong> por email y Teléfono</td>
@@ -326,52 +352,52 @@
                                 </table>
                             </div>
                             <div class="block-content block-content-mini block-content-full bg-gray-lighter">
-                                <span class="btn btn-primary pagar" data-toggle="modal" data-target="#sign-up-form" data-value="760000">Suscribirme</span>
+                    <span class="btn btn-primary pagar" id="trimestral"
+                          onclick="suscribirme('empresarial')">Suscribirme</span>
                                 <span id="valor_trimestral" class="hidden"></span>
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4  animated fadeInUp" data-toggle="appear" data-offset="50" data-timeout="400" data-class="animated fadeInUp">
+                    <div class="col-sm-4 col-lg-4">
                         <a class="block block-link-hover2 text-center" href="#">
                             <div class="block-header">
-                                <h3 class="block-title">Franquicias</h3>
+                                <h3 class="block-title">Franquicias y Cadenas</h3>
                             </div>
                             <div class="block-content block-content-full bg-success ribbon ribbon-bookmark ribbon-danger">
-                                <div class="ribbon-box font-w600">-30%</div>
-                                <div class="h1 font-w700 text-white push-10">$<span id="monto_anual">150,000</span></div>
-                                <div class="h5 font-w300 text-white-op">por mes</div>
+                                <div class="h1 font-w700 text-white monthly">$<span id="monto_anual">149.000</span></div>
+                                <div class="h1 font-w700 text-white  yearly hide">$<span id="monto_mensual">1.490.000</span>
+                                </div>
+                                <div class="h4 font-w300 text-white-op">Por mes</div>
+                                <div class="h4 font-w300 text-white-op">Ahorra <b>$298.000</b> anual</div>
                             </div>
                             <div class="block-content ">
+
                                 <table class="table table-borderless table-condensed">
                                     <tbody>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Ventas
-                                            Ilimitadas
-                                        </td>
+                                        <td><strong><i class="fa fa-check"></i></strong> Ventas Ilimitadas</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Productos
-                                            ilimitados
-                                        </td>
+                                        <td><strong><i class="fa fa-check"></i></strong> Facturación electrónica</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usuarios
-                                            Ilimitados
-                                        </td>
+                                        <td><strong><i class="fa fa-check"></i></strong> Productos Ilimitados</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Tiendas
-                                            Ilimitadas
-                                        </td>
+                                        <td><strong><i class="fa fa-check"></i></strong> Usuarios Ilimitados</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Soporte</strong> por email y Teléfono</td>
+                                        <td><strong><i class="fa fa-check"></i></strong> 3 Tiendas / tienda adicional 50.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Soporte prioritario</strong> por email y Teléfono</td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <div class="block-content block-content-mini block-content-full bg-gray-lighter">
-                                <span class="btn btn-success pagar" data-toggle="modal" data-target="#sign-up-form" data-value="1260">Suscribirme</span>
+                    <span class="btn btn-success pagar" id="anual"
+                          onclick="suscribirme('franquicias')">Suscribirme</span>
                                 <span id="valor_anual" class="hidden"></span>
                             </div>
                         </a>
@@ -382,7 +408,7 @@
 
         <div class="content-boxed">
             <section class="contactenos">
-                <div class="col-sm-4 padding-30">
+                <div class="col-sm-6 padding-30">
                     <div class="row push">
                         <div class="col-sm-4 text-center">
                             <img class="" width="88" height="100"
@@ -418,30 +444,7 @@
 
                     </div>
                 </div>
-                <div class="col-sm-4 padding-30">
-                    {!! Form::open(['action' => 'InicioController@store','class'=>'form-horizontal']) !!}
-                    <div class="form-group">
-                        <div class="col-md-6">
-                            {!! Form::text('name', null,['class'=>'form-control input-lg','placeholder'=>'Nombre completo','required']) !!}
-                        </div>
-                        <div class="col-md-6">
-                            {!! Form::text('email', null,['class'=>'form-control  input-lg','placeholder'=>'Correo Electrónico','required']) !!}
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-md-12">
-                            {!! Form::textarea('mensaje', null,['class'=>'form-control  input-lg',
-                              'placeholder'=>'Mensaje','rows'=>'7']) !!}
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-md-12">
-                            {!! Form::submit('Enviar', ['class'=>'btn btn-block btn-green btn-lg']) !!}
-                        </div>
-                    </div>
-                    {!! Form::close() !!}
-                </div>
-                <div class="col-sm-4 padding-30">
+                <div class="col-sm-6 padding-30">
                     <img class="img-responsive" height="173" width="281" src="{{url('assets/img/mapa.png')}}" alt="sistema pos colombia"/>
                 </div>
             </section>

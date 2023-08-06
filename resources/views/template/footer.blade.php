@@ -68,64 +68,27 @@
     </div>
     <div class="col-sm-12 bg-green-light">
       <!-- Copyright Info -->
-      <div class="font-s20 text-center push-10-t clearfix">
+      <div class="font-s20 text-center push-10-t push-15 clearfix">
         <p>Creado con <i class="fa fa-heart text-city"></i> en Colombia</p>
-          <p>Felix mauricio suarez vega Nit:1001283353-3</p>
-          <a href="mailto:mauroziux@gmail.com" target="_blank">Mauroziux@gmail.com</a>
+          <p>Contapp Nit:1001283353-3</p>
+          <a class="text-decoration-none text-white" href="mailto:ventas@contapp.com.co" target="_blank">ventas@contapp.com.co</a>
       </div>
       <!-- END Copyright Info -->
-    </div>
-    <div id="sign-up-form" class="modal in formulario">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="block">
-                    <div class="block-content padding-30  bg-green-light">
-                      <h4 class="h1 font-w600 text-center text-white">Tus 30 Días GRATIS</h4>
-                      <h4 class="h3 font-w500 text-center text-white">¡Consiguelo Ahora!</h4>
-                      <div class="push-20-t">
-                          {!! Form::open(['action' => 'InicioController@store','class'=>'form-horizontal']) !!}
-                          <div class="form-group">
-                            <div class="col-md-12">
-                              {!! Form::text('name', null,['class'=>'form-control font-s20 input-lg','placeholder'=>'Ingrese su Nombre','required']) !!}
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <div class="col-md-12">
-                              {!! Form::email('email', null,['class'=>'form-control font-s20 input-lg',
-                                'placeholder'=>'Ingrese su correo electrónico','required']) !!}
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <div class="col-md-12">
-                              {!! Form::text('telefono', null,['class'=>'form-control font-s20 input-lg',
-                                'placeholder'=>'Ingrese su número telefónico','required']) !!}
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <div class="col-md-12">
-                              {!! Form::text('empresa', null,['class'=>'form-control font-s20 input-lg',
-                                'placeholder'=>'Nombre de su empresa','required']) !!}
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <div class="col-md-12">
-                              {!! Form::text('ciudad', null,['class'=>'form-control font-s20 input-lg',
-                                'placeholder'=>'Ciudad de ubicación','required']) !!}
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <div class="col-md-12">
-                              {!! Form::submit('Empieza ahora', ['class'=>'btn btn-block btn-green btn-lg font-s20']) !!}
-                            </div>
-                          </div>
-                          {!! Form::close() !!}
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!-- Load Facebook SDK for JavaScript -->
 
 </footer>
+<script>
+    var monthly = true
+
+    function cambiarPeriodo() {
+        $(".monthly, .yearly").toggleClass('hide');
+        monthly = ! monthly
+    }
+
+    function suscribirme(plan) {
+        $('#plan').val(plan)
+        window.location.href = 'https://app.contapp.com.co/auth/register'
+    }
+</script>
