@@ -256,8 +256,7 @@
                                 información importante
                             </div>
                             <div>
-                                todos los planes en la modalidad de pago anual tienen gratis <b>Certificado de firma digital</b> y
-                                facturacion electronica ilimitada <b>Gratis</b>
+                                Los planes Empresarial, Franquicias y Cadenas en la modalidad de pago anual tienen gratis
                             </div>
                         </div>
                         <div class="flex  " style="align-items: center; justify-content: center; padding: 20px">
@@ -290,9 +289,7 @@
                                     <tr>
                                         <td><strong><i class="fa fa-check"></i></strong> 1000 Ventas por mes</td>
                                     </tr>
-                                    <tr>
-                                        <td><strong><i class="fa fa-check"></i></strong> Facturación electrónica</td>
-                                    </tr>
+                                  
                                     <tr>
                                         <td><strong><i class="fa fa-check"></i></strong> 500 Productos</td>
                                     </tr>
@@ -301,6 +298,12 @@
                                     </tr>
                                     <tr>
                                         <td><strong><i class="fa fa-check"></i></strong> 1 Tienda</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check"></i></strong> Facturación electrónica (firma digital $200.000 anual)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check"></i></strong>Precio por factura desde $30</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Soporte</strong> por email</td>
@@ -333,9 +336,7 @@
                                     <tr>
                                         <td><strong><i class="fa fa-check"></i></strong> Ventas Ilimitadas</td>
                                     </tr>
-                                    <tr>
-                                        <td><strong><i class="fa fa-check"></i></strong> Facturación electrónica</td>
-                                    </tr>
+                                   
                                     <tr>
                                         <td><strong><i class="fa fa-check"></i></strong> Productos Ilimitados</td>
                                     </tr>
@@ -344,6 +345,12 @@
                                     </tr>
                                     <tr>
                                         <td><strong><i class="fa fa-check"></i></strong>2 Tiendas</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check"></i></strong> Facturación electrónica (firma digital incluido en la anualidad</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check"></i></strong>Precio por factura desde $20</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Soporte</strong> por email y Teléfono</td>
@@ -378,9 +385,6 @@
                                         <td><strong><i class="fa fa-check"></i></strong> Ventas Ilimitadas</td>
                                     </tr>
                                     <tr>
-                                        <td><strong><i class="fa fa-check"></i></strong> Facturación electrónica</td>
-                                    </tr>
-                                    <tr>
                                         <td><strong><i class="fa fa-check"></i></strong> Productos Ilimitados</td>
                                     </tr>
                                     <tr>
@@ -388,6 +392,12 @@
                                     </tr>
                                     <tr>
                                         <td><strong><i class="fa fa-check"></i></strong> 3 Tiendas / tienda adicional 50.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check"></i></strong> Facturación electrónica (firma digital incluido en la anualidad</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong><i class="fa fa-check"></i></strong>Precio por factura desde $10</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Soporte prioritario</strong> por email y Teléfono</td>
