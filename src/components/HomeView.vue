@@ -179,7 +179,8 @@
                         </div>
                     </div>
                     <div class="flex justify-center">
-                        <img class="w-full max-w-lg" src="https://static.contapp.com.co/contapp-web/team.webp"
+                        <img width="400" height="350" class="w-full max-w-lg"
+                            src="https://static.contapp.com.co/contapp-web/team.webp"
                             alt="sistemas pos multiusuario y multitienda" />
                     </div>
                 </div>
