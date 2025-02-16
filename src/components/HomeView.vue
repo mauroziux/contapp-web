@@ -10,7 +10,8 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center space-y-4">
                             <img src="https://static.contapp.com.co/contapp-web/benefit-time.svg"
-                                alt="Sistema POS en la nube con facturación electrónica automatizada" class="mx-auto" />
+                                alt="Sistema POS en la nube con facturación electrónica automatizada" class="mx-auto"
+                                loading="eager" />
                             <p class="text-white text-lg">
                                 Optimiza tu tiempo con <strong>facturación electrónica automatizada</strong>. Gestiona
                                 tu empresa en tiempo real desde cualquier lugar con nuestro sistema POS multiusuario en
@@ -19,7 +20,8 @@
                         </div>
                         <div class="text-center space-y-4">
                             <img src="https://static.contapp.com.co/contapp-web/benefit-cost.svg"
-                                alt="Software punto de venta con control de inventarios integrado" class="mx-auto" />
+                                alt="Software punto de venta con control de inventarios integrado" class="mx-auto"
+                                loading="lazy" />
                             <p class="text-white text-lg">
                                 Maximiza tu rentabilidad con nuestro <strong>control de inventario en tiempo
                                     real</strong>.
@@ -29,7 +31,8 @@
                         </div>
                         <div class="text-center space-y-4">
                             <img src="https://static.contapp.com.co/contapp-web/benefit-happiness.svg"
-                                alt="POS electrónico multiusuario para gestión empresarial" class="mx-auto" />
+                                alt="POS electrónico multiusuario para gestión empresarial" class="mx-auto"
+                                loading="lazy" />
                             <p class="text-white text-lg">
                                 Impulsa el crecimiento de tu negocio con nuestro <strong>sistema POS integral</strong>.
                                 Aumenta tus ventas y eficiencia operativa con herramientas de gestión empresarial

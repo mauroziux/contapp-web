@@ -13,6 +13,8 @@
     content="sistema pos colombia, facturacion electronica gratis, software punto de venta, pos en la nube, sistema administrativo multiusuario, control de inventarios tiempo real, pos electronico, sistema pos multitienda, facturacion pos, gestion empresarial">
   <link rel="canonical" href="https://contapp.com.co" />
   <title>Contapp - Sistema POS y Facturación Electrónica Gratis | Software Punto de Venta Colombia</title>
+  <link rel="preload" href="/src/style.css" as="style">
+  <link rel="preload" href="/src/main.js" as="script">
   <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
   <link rel="preload" href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" as="style"
     onload="this.onload=null;this.rel='stylesheet'">
@@ -23,8 +25,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://static.contapp.com.co" crossorigin>
   <link rel="dns-prefetch" href="https://static.contapp.com.co">
-  <link rel="preload" as="image" href="https://static.contapp.com.co/contapp-web/logo.webp">
-  <link rel="preload" as="image" href="https://static.contapp.com.co/contapp-web/Portada.webp">
+  <link rel="preload" as="image" href="https://static.contapp.com.co/contapp-web/logo.webp" fetchpriority="high"
+    imagesizes="156px" imagesrcset="https://static.contapp.com.co/contapp-web/logo.webp 156w">
+  <link rel="preload" as="image" href="https://static.contapp.com.co/contapp-web/Portada.webp" fetchpriority="high"
+    imagesizes="1920px" imagesrcset="https://static.contapp.com.co/contapp-web/Portada.webp 1920w">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
@@ -63,7 +67,7 @@
 
 <body>
   <div id="app"></div>
-  <script type="module" src="/src/main.js"></script>
+  <script type="module" src="/src/main.js" defer></script>
 </body>
 
 </html>

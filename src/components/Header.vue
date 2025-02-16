@@ -83,7 +83,7 @@ import TypedText from './TypedText.vue';
                 <div class="mt-12 -mx-8 -mb-12 animate-fade-up">
                     <img src="https://static.contapp.com.co/contapp-web/Portada.webp"
                         alt="Interfaz del Software POS Contapp - Sistema de Facturación Electrónica" class="w-full"
-                        loading="lazy" decoding="async" fetchpriority="low" />
+                        width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low" />
                 </div>
             </section>
         </div>

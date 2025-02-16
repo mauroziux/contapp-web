@@ -4,7 +4,8 @@
             <div class="max-w-3xl mx-auto">
                 <a href="/" class="flex justify-center py-8">
                     <img class="w-[156px] h-[57px]" alt="Contapp - Sistema POS y Facturación Electrónica"
-                        src="https://static.contapp.com.co/contapp-web/logo.webp">
+                        src="https://static.contapp.com.co/contapp-web/logo.webp" width="156" height="57" loading="lazy"
+                        decoding="async" fetchpriority="low">
                 </a>
                 <div class="mt-6 text-sm text-gray-300 text-center px-4 mb-10">
                     <p>Somos una solución integral de gestión empresarial en la nube que revoluciona la forma de
