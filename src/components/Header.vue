@@ -42,7 +42,7 @@ import TypedText from './TypedText.vue';
                                     Login
                                 </a>
                             </li>
-                            <li class="hidden sm:block">
+                            <li class="">
                                 <a href="https://app.contapp.com.co" target="_blank" class="inline-block">
                                     <button
                                         class="bg-gray-800 hover:bg-gray-900 text-white  font-normal py-2 px-4 rounded transition duration-300">
