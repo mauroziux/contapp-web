@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #f5f5f5;
+    background-color: #f5f5f5;
+}
+
+#page-container {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 320px;
+    background-color: #2c343f;
+}
+
+#header-navbar {
+    height: 90px;
+    padding-top: 2rem;
+}
+
+.header-navbar-transparent.header-navbar-fixed.header-navbar-scroll #header-navbar {
+    background-color: #0e596c !important;
+    padding-top: 1rem !important;
+    height: 80px !important;
+}
+
+.header-navbar-transparent #header-navbar {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.header-navbar-fixed #header-navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    min-width: 320px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+.bg-radial-gradient-blue {
+    background-image: -webkit-radial-gradient(circle closest-corner at 50% 70%, #37b99b, #0e596c 99%);
+    background-image: radial-gradient(circle closest-corner at 50% 70%, #37b99b, #0e596c 99%);
+}
+
+.typed-cursor {
+    opacity: .6;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.9s infinite;
+}
+
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
