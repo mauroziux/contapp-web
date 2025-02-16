@@ -179,7 +179,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center">
-                        <img class="w-full max-w-lg" src="https://static.contapp.com.co/contapp-web/team.png"
+                        <img class="w-full max-w-lg" src="https://static.contapp.com.co/contapp-web/team.webp"
                             alt="sistemas pos multiusuario y multitienda" />
                     </div>
                 </div>
@@ -448,14 +448,15 @@
                 <div class="grid md:grid-cols-2 gap-12">
                     <div class="">
                         <div class="flex items-center gap-8">
-                            <img src="https://static.contapp.com.co/contapp-web/correo.png" alt="correo" class="w-24" />
+                            <img src="https://static.contapp.com.co/contapp-web/correo.webp" alt="correo"
+                                class="w-24" />
                             <div class="text-center w-full">
                                 <h3 class="text-2xl font-semibold text-gray-800">¿Tienes dudas?</h3>
                                 <p class="text-lg font-medium text-gray-600">ventas@contapp.com.co</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-8">
-                            <img src="https://static.contapp.com.co/contapp-web/telefono.png" alt="telefono"
+                            <img src="https://static.contapp.com.co/contapp-web/telefono.webp" alt="telefono"
                                 class="w-24" />
                             <div class="text-center w-full">
                                 <h3 class="text-2xl font-semibold text-gray-800">¿Telefonos?</h3>
@@ -463,7 +464,7 @@
                             </div>
                         </div>
                         <div class="flex items-center gap-8">
-                            <img src="https://static.contapp.com.co/contapp-web/lugar.png" alt="ubicacion"
+                            <img src="https://static.contapp.com.co/contapp-web/lugar.webp" alt="ubicacion"
                                 class="w-24" />
                             <div class="text-center w-full">
                                 <h3 class="text-2xl font-semibold text-gray-800">¿Quieres visitarnos?</h3>
