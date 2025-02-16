@@ -61,7 +61,7 @@ import TypedText from './TypedText.vue';
                 <div class="text-center space-y-6 py-12">
                     <h1
                         class="text-5xl md:text-6xl font-bold text-white leading-tight min-h-[200px] flex flex-col items-center justify-center">
-                        <span>Software POS Multiusuario y Facturación Electrónica en Colombia</span>
+                        Software POS Multiusuario y Facturación Electrónica en Colombia
                         <span class="flex items-center gap-2 mt-2">
                             <span>para</span>
                             <TypedText />
