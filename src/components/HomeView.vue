@@ -11,7 +11,7 @@
                         <div class="text-center space-y-4">
                             <img src="https://static.contapp.com.co/contapp-web/benefit-time.svg"
                                 alt="Sistema POS en la nube con facturación electrónica automatizada" class="mx-auto"
-                                loading="eager" />
+                                loading="eager" width="120" height="120" />
                             <p class="text-white text-lg">
                                 Optimiza tu tiempo con <strong>facturación electrónica automatizada</strong>. Gestiona
                                 tu empresa en tiempo real desde cualquier lugar con nuestro sistema POS multiusuario en
@@ -21,7 +21,7 @@
                         <div class="text-center space-y-4">
                             <img src="https://static.contapp.com.co/contapp-web/benefit-cost.svg"
                                 alt="Software punto de venta con control de inventarios integrado" class="mx-auto"
-                                loading="lazy" />
+                                loading="lazy" width="120" height="120" />
                             <p class="text-white text-lg">
                                 Maximiza tu rentabilidad con nuestro <strong>control de inventario en tiempo
                                     real</strong>.
@@ -32,7 +32,7 @@
                         <div class="text-center space-y-4">
                             <img src="https://static.contapp.com.co/contapp-web/benefit-happiness.svg"
                                 alt="POS electrónico multiusuario para gestión empresarial" class="mx-auto"
-                                loading="lazy" />
+                                loading="lazy" width="120" height="120" />
                             <p class="text-white text-lg">
                                 Impulsa el crecimiento de tu negocio con nuestro <strong>sistema POS integral</strong>.
                                 Aumenta tus ventas y eficiencia operativa con herramientas de gestión empresarial
@@ -104,7 +104,7 @@
                                 </p>
                             </div>
                             <img src="https://static.contapp.com.co/contapp-web/Ventas.webp"
-                                alt="sistema punto de venta" class="w-full -mb-25" />
+                                alt="sistema punto de venta" class="w-full -mb-25" width="600" height="400" />
                         </div>
 
                         <div v-show="activeTab === 'gestionar'" class="grid md:grid-cols-2 gap-12 items-center">
@@ -119,7 +119,7 @@
                                 </p>
                             </div>
                             <img src="https://static.contapp.com.co/contapp-web/Clientes.webp"
-                                alt="sistema administrativo" class="w-full -mb-32" />
+                                alt="sistema administrativo" class="w-full -mb-32" width="600" height="400" />
                         </div>
 
                         <div v-show="activeTab === 'informes'" class="grid md:grid-cols-2 gap-12 items-center">
@@ -133,7 +133,7 @@
                                 </p>
                             </div>
                             <img src="https://static.contapp.com.co/contapp-web/Graficas.webp" alt="informes y reportes"
-                                class="w-full -mb-25" />
+                                class="w-full -mb-25" width="600" height="400" />
                         </div>
 
                         <div v-show="activeTab === 'crecer'" class="grid md:grid-cols-2 gap-12 items-center">
@@ -146,7 +146,7 @@
                                 </p>
                             </div>
                             <img src="https://static.contapp.com.co/contapp-web/Crecer.webp"
-                                alt="hacer crecer tu negocio" class="w-full -mb-16" />
+                                alt="hacer crecer tu negocio" class="w-full -mb-16" width="600" height="400" />
                         </div>
                     </div>
                 </div>
