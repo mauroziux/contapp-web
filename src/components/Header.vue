@@ -59,10 +59,13 @@ import TypedText from './TypedText.vue';
             <section class="mx-auto px-4 sm:px-6 lg:px-8 py-12 overflow-hidden">
                 <!-- Hero Section -->
                 <div class="text-center space-y-6 py-12">
-                    <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight">
-                        Software POS Multiusuario y Facturación Electrónica en Colombia<br />para
-                        <TypedText></TypedText>
-                        <span class="element"></span>
+                    <h1
+                        class="text-5xl md:text-6xl font-bold text-white leading-tight min-h-[200px] flex flex-col items-center justify-center">
+                        <span>Software POS Multiusuario y Facturación Electrónica en Colombia</span>
+                        <span class="flex items-center gap-2 mt-2">
+                            <span>para</span>
+                            <TypedText />
+                        </span>
                     </h1>
                     <h2 class="text-xl md:text-2xl text-white/80 max-w-4xl mx-auto">
                         Contapp es un sistema POS en la nube con facturación electrónica ilimitada. Gestiona

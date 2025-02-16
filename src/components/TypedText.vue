@@ -1,5 +1,8 @@
 <template>
-    <span class="text-blue-300">{{ displayText }}</span>
+    <span class="text-blue-300">
+        <span class="sr-only">Restaurantes</span>
+        <span aria-hidden="true">{{ displayText }}</span>
+    </span>
 </template>
 
 <script setup>
@@ -43,7 +46,10 @@ const typeText = () => {
 };
 
 onMounted(() => {
-    typingInterval = setInterval(typeText, TYPE_SPEED);
+    // Delay the start of animation to ensure initial content is painted first
+    setTimeout(() => {
+        typingInterval = setInterval(typeText, TYPE_SPEED);
+    }, 1000);
 });
 
 onBeforeUnmount(() => {
