@@ -475,8 +475,8 @@
                         </div>
                     </div>
                     <div>
-                        <img src="https://static.contapp.com.co/contapp-web/Mapa.webp" alt="sistema pos colombia"
-                            class="w-full rounded-lg" />
+                        <img width="300" height="185" src="https://static.contapp.com.co/contapp-web/Mapa.webp"
+                            alt="sistema pos colombia" class="w-full rounded-lg" />
                     </div>
                 </div>
             </div>
