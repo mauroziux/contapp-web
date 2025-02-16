@@ -10,7 +10,7 @@ import TypedText from './TypedText.vue';
                     <!-- Logo Section -->
                     <div class="w-full md:w-1/3 text-center ">
                         <a href="/" class="inline-block">
-                            <img class="w-[156px] h-[57px]" src="https://static.contapp.com.co/contapp-web/logo.png"
+                            <img class="w-[156px] h-[57px]" src="https://static.contapp.com.co/contapp-web/logo.webp"
                                 alt="Contapp - Sistema POS y Facturación Electrónica" loading="eager" width="156"
                                 height="57" decoding="async" fetchpriority="high" />
                         </a>
@@ -81,7 +81,7 @@ import TypedText from './TypedText.vue';
                     </a>
                 </div>
                 <div class="mt-12 -mx-8 -mb-12 animate-fade-up">
-                    <img src="https://static.contapp.com.co/contapp-web/portada.png"
+                    <img src="https://static.contapp.com.co/contapp-web/Portada.webp"
                         alt="Interfaz del Software POS Contapp - Sistema de Facturación Electrónica" class="w-full"
                         loading="lazy" decoding="async" fetchpriority="low" />
                 </div>

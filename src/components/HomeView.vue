@@ -100,8 +100,8 @@
                                     electrónico. ahorra dinero en papel y ayudas al medio ambiente.
                                 </p>
                             </div>
-                            <img src="https://static.contapp.com.co/contapp-web/ventas.png" alt="sistema punto de venta"
-                                class="w-full -mb-25" />
+                            <img src="https://static.contapp.com.co/contapp-web/ventas.webp"
+                                alt="sistema punto de venta" class="w-full -mb-25" />
                         </div>
 
                         <div v-show="activeTab === 'gestionar'" class="grid md:grid-cols-2 gap-12 items-center">
@@ -115,7 +115,7 @@
                                     todo en un solo Sistema POS y Administrativo.
                                 </p>
                             </div>
-                            <img src="https://static.contapp.com.co/contapp-web/clientes.png"
+                            <img src="https://static.contapp.com.co/contapp-web/Clientes.webp"
                                 alt="sistema administrativo" class="w-full -mb-32" />
                         </div>
 
@@ -129,7 +129,7 @@
                                     cualquier lugar.
                                 </p>
                             </div>
-                            <img src="https://static.contapp.com.co/contapp-web/graficas.png" alt="informes y reportes"
+                            <img src="https://static.contapp.com.co/contapp-web/graficas.webp" alt="informes y reportes"
                                 class="w-full -mb-25" />
                         </div>
 
@@ -142,7 +142,7 @@
                                     recursos, aumentar tus ventas y hacer crecer tu negocio de manera sostenible.
                                 </p>
                             </div>
-                            <img src="https://static.contapp.com.co/contapp-web/crecer.png"
+                            <img src="https://static.contapp.com.co/contapp-web/crecer.webp"
                                 alt="hacer crecer tu negocio" class="w-full -mb-16" />
                         </div>
                     </div>
@@ -471,7 +471,8 @@
                         </div>
                     </div>
                     <div>
-                        <img src="/mapa.png" alt="sistema pos colombia" class="w-full rounded-lg" />
+                        <img src="https://static.contapp.com.co/contapp-web/mapa.webp" alt="sistema pos colombia"
+                            class="w-full rounded-lg" />
                     </div>
                 </div>
             </div>

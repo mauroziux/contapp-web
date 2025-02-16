@@ -4,7 +4,7 @@
             <div class="max-w-3xl mx-auto">
                 <a href="/" class="flex justify-center py-8">
                     <img class="w-[156px] h-[57px]" alt="Contapp - Sistema POS y Facturación Electrónica"
-                        src="https://static.contapp.com.co/contapp-web/logo.png">
+                        src="https://static.contapp.com.co/contapp-web/logo.webp">
                 </a>
                 <div class="mt-6 text-sm text-gray-300 text-center px-4 mb-10">
                     <p>Somos una solución integral de gestión empresarial en la nube que revoluciona la forma de
@@ -62,7 +62,7 @@
                 <div class="text-center mb-10">
                     <h3 class="text-lg font-semibold text-gray-300 uppercase mb-4">Quienes nos apoyan</h3>
                     <img class="mx-auto mb-10" alt="socios contapp" src="/apoyo.png">
-                    <img class="mx-auto" alt="socios contapp" src="/mapa.png">
+                    <img class="mx-auto" alt="socios contapp" src="https://static.contapp.com.co/contapp-web/mapa.webp">
 
                 </div>
                 <div class="text-lg text-gray-300 text-center pb-8">
