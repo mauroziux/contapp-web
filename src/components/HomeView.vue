@@ -100,7 +100,7 @@
                                     electrónico. ahorra dinero en papel y ayudas al medio ambiente.
                                 </p>
                             </div>
-                            <img src="https://static.contapp.com.co/contapp-web/ventas.webp"
+                            <img src="https://static.contapp.com.co/contapp-web/Ventas.webp"
                                 alt="sistema punto de venta" class="w-full -mb-25" />
                         </div>
 
@@ -129,7 +129,7 @@
                                     cualquier lugar.
                                 </p>
                             </div>
-                            <img src="https://static.contapp.com.co/contapp-web/graficas.webp" alt="informes y reportes"
+                            <img src="https://static.contapp.com.co/contapp-web/Graficas.webp" alt="informes y reportes"
                                 class="w-full -mb-25" />
                         </div>
 
@@ -142,7 +142,7 @@
                                     recursos, aumentar tus ventas y hacer crecer tu negocio de manera sostenible.
                                 </p>
                             </div>
-                            <img src="https://static.contapp.com.co/contapp-web/crecer.webp"
+                            <img src="https://static.contapp.com.co/contapp-web/Crecer.webp"
                                 alt="hacer crecer tu negocio" class="w-full -mb-16" />
                         </div>
                     </div>
@@ -471,7 +471,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="https://static.contapp.com.co/contapp-web/mapa.webp" alt="sistema pos colombia"
+                        <img src="https://static.contapp.com.co/contapp-web/Mapa.webp" alt="sistema pos colombia"
                             class="w-full rounded-lg" />
                     </div>
                 </div>

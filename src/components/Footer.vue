@@ -61,8 +61,9 @@
                 </div>
                 <div class="text-center mb-10">
                     <h3 class="text-lg font-semibold text-gray-300 uppercase mb-4">Quienes nos apoyan</h3>
-                    <img class="mx-auto mb-10" alt="socios contapp" src="/apoyo.png">
-                    <img class="mx-auto" alt="socios contapp" src="https://static.contapp.com.co/contapp-web/mapa.webp">
+                    <img class="mx-auto mb-10" alt="socios contapp"
+                        src="https://static.contapp.com.co/contapp-web/Apoyo.webp">
+                    <img class="mx-auto" alt="socios contapp" src="https://static.contapp.com.co/contapp-web/Mapa.webp">
 
                 </div>
                 <div class="text-lg text-gray-300 text-center pb-8">
