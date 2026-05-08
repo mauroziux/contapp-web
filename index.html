@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="es-CO">
 
 <head>
   <meta charset="UTF-8" />
@@ -9,10 +9,21 @@
   <meta name="robots" content="index, follow">
   <meta name="description"
     content="Contapp: Sistema POS en la nube con facturación electrónica ilimitada GRATIS para negocios en Colombia. Software punto de venta multiusuario, control de inventario en tiempo real, gestión financiera y reportes detallados.">
-  <meta name="keywords"
-    content="sistema pos colombia, facturacion electronica gratis, software punto de venta, pos en la nube, sistema administrativo multiusuario, control de inventarios tiempo real, pos electronico, sistema pos multitienda, facturacion pos, gestion empresarial">
-  <link rel="canonical" href="https://contapp.com.co" />
-  <title>Contapp - Sistema POS y Facturación Electrónica Gratis | Software Punto de Venta Colombia</title>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contapp.com.co/">
+  <meta property="og:title" content="Contapp: Sistema POS y Facturación Electrónica en Colombia">
+  <meta property="og:description" content="Sistema POS en la nube con facturación electrónica ilimitada GRATIS. Software punto de venta multiusuario, control de inventario y gestión financiera para negocios en Colombia.">
+  <meta property="og:image" content="https://static.contapp.com.co/contapp-web/og-image.png">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="Contapp">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contapp: Sistema POS y Facturación Electrónica en Colombia">
+  <meta name="twitter:description" content="Sistema POS en la nube con facturación electrónica ilimitada GRATIS. Software punto de venta multiusuario para negocios en Colombia.">
+  <meta name="twitter:image" content="https://static.contapp.com.co/contapp-web/og-image.png">
+  <link rel="canonical" href="https://contapp.com.co/" />
+  <title>Contapp: Sistema POS y Facturación Electrónica en Colombia</title>
   <link rel="preload" href="/src/style.css" as="style">
   <link rel="preload" href="/src/main.js" as="script">
   <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
@@ -41,24 +52,101 @@
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="Bs5K2yqrW6C9PoS6cD7CoQ" async></script>
   <script type="application/ld+json">
   {
-    "@context": "http://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Contapp Colombia",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "COP"
-    },
-    "description": "Software de punto de venta POS y facturación electrónica para negocios en Colombia",
-    "url": "https://contapp.com.co",
-    "logo": "https://static.contapp.com.co/contapp-web/logo.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+57-314-553-5632",
-      "contactType": "Customer service"
-    }
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://contapp.com.co/#organization",
+        "name": "Contapp",
+        "url": "https://contapp.com.co",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://static.contapp.com.co/contapp-web/logo.webp"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+57-314-553-5632",
+          "contactType": "customer service",
+          "areaServed": "CO",
+          "availableLanguage": "Spanish"
+        },
+        "sameAs": [
+          "https://www.facebook.com/contappcol",
+          "https://www.instagram.com/contapp.co"
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Contapp",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://contapp.com.co",
+        "description": "Software de punto de venta POS y facturación electrónica para negocios en Colombia",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Emprendedor",
+            "price": "59000",
+            "priceCurrency": "COP",
+            "billingPeriod": "P1M",
+            "description": "1,000 ventas/mes, 500 productos, 2 usuarios, 1 tienda"
+          },
+          {
+            "@type": "Offer",
+            "name": "Empresarial",
+            "price": "119000",
+            "priceCurrency": "COP",
+            "billingPeriod": "P1M",
+            "description": "Ventas ilimitadas, productos ilimitados, 5 usuarios, 2 tiendas"
+          },
+          {
+            "@type": "Offer",
+            "name": "Franquicias y Cadenas",
+            "price": "179000",
+            "priceCurrency": "COP",
+            "billingPeriod": "P1M",
+            "description": "Todo ilimitado, usuarios ilimitados, 3 tiendas"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es Contapp?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Contapp es un sistema POS en la nube con facturación electrónica ilimitada para negocios en Colombia. Permite gestionar ventas, inventarios, usuarios y múltiples tiendas desde cualquier dispositivo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿La facturación electrónica es gratis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, Contapp incluye facturación electrónica ilimitada en todos sus planes. Los planes anuales incluyen además certificado de firma digital sin costo adicional."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo probar Contapp gratis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, Contapp ofrece 15 días de prueba gratuita sin necesidad de tarjeta de crédito en todos sus planes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuántas tiendas y usuarios puedo tener?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Depende del plan: Emprendedor (1 tienda, 2 usuarios), Empresarial (2 tiendas, 5 usuarios), Franquicias (3 tiendas incluidas, usuarios ilimitados, tiendas adicionales a $50.000 COP cada una)."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>

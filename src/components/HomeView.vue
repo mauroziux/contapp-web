@@ -214,10 +214,10 @@
                             <p class="mt-4 text-gray-400">Ideal para comenzar tu negocio</p>
                         </div>
                         <div class="mb-8">
-                            <span class="text-5xl font-extrabold text-white">${{ isAnnual ? '490.000' : '49.000'
+                            <span class="text-5xl font-extrabold text-white">${{ isAnnual ? '590.000' : '59.000'
                                 }}</span>
                             <span class="text-xl font-medium text-gray-400">/mes</span>
-                            <p class="text-sm text-gray-400 mt-2">Ahorra <b>$98.000</b> anual</p>
+                            <p class="text-sm text-gray-400 mt-2">Ahorra <b>$118.000</b> anual</p>
                         </div>
                         <ul class="mb-8 space-y-4 text-gray-400">
                             <li class="flex items-center text-left">
@@ -291,10 +291,10 @@
                             <p class="mt-4 text-gray-400">Perfecto para negocios en crecimiento</p>
                         </div>
                         <div class="mb-8">
-                            <span class="text-5xl font-extrabold text-white">${{ isAnnual ? '990.000' : '99.000'
+                            <span class="text-5xl font-extrabold text-white">${{ isAnnual ? '1.190.000' : '119.000'
                                 }}</span>
                             <span class="text-xl font-medium text-gray-400">/mes</span>
-                            <p class="text-sm text-gray-400 mt-2">Ahorra <b>$198.000</b> anual</p>
+                            <p class="text-sm text-gray-400 mt-2">Ahorra <b>$238.000</b> anual</p>
                         </div>
                         <ul class="mb-8 space-y-4 text-gray-400">
                             <li class="flex items-center text-left">
@@ -368,10 +368,10 @@
                             <p class="mt-4 text-gray-400">Para negocios de gran escala</p>
                         </div>
                         <div class="mb-8">
-                            <span class="text-5xl font-extrabold text-white">${{ isAnnual ? '1.490.000' : '149.000'
+                            <span class="text-5xl font-extrabold text-white">${{ isAnnual ? '1.790.000' : '179.000'
                                 }}</span>
                             <span class="text-xl font-medium text-gray-400">/mes</span>
-                            <p class="text-sm text-gray-400 mt-2">Ahorra <b>$298.000</b> anual</p>
+                            <p class="text-sm text-gray-400 mt-2">Ahorra <b>$358.000</b> anual</p>
                         </div>
                         <ul class="mb-8 space-y-4 text-gray-400">
                             <li class="flex items-center text-left">
