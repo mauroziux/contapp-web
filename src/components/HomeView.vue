@@ -104,7 +104,8 @@
                                 </p>
                             </div>
                             <img src="https://static.contapp.com.co/contapp-web/Ventas.webp"
-                                alt="sistema punto de venta" class="w-full -mb-25" width="600" height="400" />
+                                alt="sistema punto de venta" class="w-full -mb-25" width="600" height="400"
+                                loading="lazy" />
                         </div>
 
                         <div v-show="activeTab === 'gestionar'" class="grid md:grid-cols-2 gap-12 items-center">
@@ -119,7 +120,8 @@
                                 </p>
                             </div>
                             <img src="https://static.contapp.com.co/contapp-web/Clientes.webp"
-                                alt="sistema administrativo" class="w-full -mb-32" width="600" height="400" />
+                                alt="sistema administrativo" class="w-full -mb-32" width="600" height="400"
+                                loading="lazy" />
                         </div>
 
                         <div v-show="activeTab === 'informes'" class="grid md:grid-cols-2 gap-12 items-center">
@@ -133,7 +135,7 @@
                                 </p>
                             </div>
                             <img src="https://static.contapp.com.co/contapp-web/Graficas.webp" alt="informes y reportes"
-                                class="w-full -mb-25" width="600" height="400" />
+                                class="w-full -mb-25" width="600" height="400" loading="lazy" />
                         </div>
 
                         <div v-show="activeTab === 'crecer'" class="grid md:grid-cols-2 gap-12 items-center">
@@ -146,7 +148,8 @@
                                 </p>
                             </div>
                             <img src="https://static.contapp.com.co/contapp-web/Crecer.webp"
-                                alt="hacer crecer tu negocio" class="w-full -mb-16" width="600" height="400" />
+                                alt="hacer crecer tu negocio" class="w-full -mb-16" width="600" height="400"
+                                loading="lazy" />
                         </div>
                     </div>
                 </div>
@@ -181,7 +184,7 @@
                     <div class="flex justify-center">
                         <img width="400" height="350" class="w-full max-w-lg"
                             src="https://static.contapp.com.co/contapp-web/team.webp"
-                            alt="sistemas pos multiusuario y multitienda" />
+                            alt="sistemas pos multiusuario y multitienda" loading="lazy" />
                     </div>
                 </div>
             </div>
@@ -450,7 +453,7 @@
                     <div class="">
                         <div class="flex items-center gap-8">
                             <img width="88" height="100" src="https://static.contapp.com.co/contapp-web/correo.webp"
-                                alt="correo" class="w-24" />
+                                alt="correo" class="w-24" loading="lazy" />
                             <div class="text-center w-full">
                                 <h3 class="text-2xl font-semibold text-gray-800">¿Tienes dudas?</h3>
                                 <p class="text-lg font-medium text-gray-600">ventas@contapp.com.co</p>
@@ -458,7 +461,7 @@
                         </div>
                         <div class="flex items-center gap-8">
                             <img width="88" height="100" src="https://static.contapp.com.co/contapp-web/telefono.webp"
-                                alt="telefono" class="w-24" />
+                                alt="telefono" class="w-24" loading="lazy" />
                             <div class="text-center w-full">
                                 <h3 class="text-2xl font-semibold text-gray-800">¿Telefonos?</h3>
                                 <p class="text-lg font-medium text-gray-600">314-553-5632</p>
@@ -466,7 +469,7 @@
                         </div>
                         <div class="flex items-center gap-8">
                             <img width="88" height="100" src="https://static.contapp.com.co/contapp-web/lugar.webp"
-                                alt="ubicacion" class="w-24" />
+                                alt="ubicacion" class="w-24" loading="lazy" />
                             <div class="text-center w-full">
                                 <h3 class="text-2xl font-semibold text-gray-800">¿Quieres visitarnos?</h3>
                                 <p class="text-lg font-medium text-gray-600">
@@ -477,7 +480,7 @@
                     </div>
                     <div>
                         <img width="300" height="185" src="https://static.contapp.com.co/contapp-web/Mapa.webp"
-                            alt="sistema pos colombia" class="w-full rounded-lg" />
+                            alt="sistema pos colombia" class="w-full rounded-lg" loading="lazy" />
                     </div>
                 </div>
             </div>

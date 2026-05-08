@@ -2,6 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://contapp.com.co/sitemap.xml
-
-# Optimize crawling
-Crawl-delay: 10
